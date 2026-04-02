@@ -1,2154 +1,0 @@
-
-Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
-
-
-  You can now view your Streamlit app in your browser.
-
-  Local URL: http://localhost:8501
-  Network URL: http://172.28.0.12:8501
-  External URL: http://34.82.0.54:8501
-
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights:   1%|          | 1/105 [00:00<00:00, 11881.88it/s, Materializing param=bert.embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/105 [00:00<00:00, 2634.61it/s, Materializing param=bert.embeddings.LayerNorm.bias] Loading weights:   2%|▏         | 2/105 [00:00<00:00, 2309.64it/s, Materializing param=bert.embeddings.LayerNorm.weight]Loading weights:   2%|▏         | 2/105 [00:00<00:00, 1050.02it/s, Materializing param=bert.embeddings.LayerNorm.weight]Loading weights:   3%|▎         | 3/105 [00:00<00:00, 1033.33it/s, Materializing param=bert.embeddings.position_embeddings.weight]Loading weights:   3%|▎         | 3/105 [00:00<00:00, 964.36it/s, Materializing param=bert.embeddings.position_embeddings.weight] Loading weights:   4%|▍         | 4/105 [00:00<00:00, 1142.40it/s, Materializing param=bert.embeddings.token_type_embeddings.weight]Loading weights:   4%|▍         | 4/105 [00:00<00:00, 934.98it/s, Materializing param=bert.embeddings.token_type_embeddings.weight] Loading weights:   5%|▍         | 5/105 [00:00<00:00, 1029.13it/s, Materializing param=bert.embeddings.word_embeddings.weight]     Loading weights:   5%|▍         | 5/105 [00:00<00:00, 925.00it/s, Materializing param=bert.embeddings.word_embeddings.weight] Loading weights:   6%|▌         | 6/105 [00:00<00:00, 983.77it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|▌         | 6/105 [00:00<00:00, 952.02it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|▋         | 7/105 [00:00<00:00, 944.30it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|▋         | 7/105 [00:00<00:00, 779.57it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|▊         | 8/105 [00:00<00:00, 839.89it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|▊         | 8/105 [00:00<00:00, 817.68it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|▊         | 9/105 [00:00<00:00, 842.25it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|▊         | 9/105 [00:00<00:00, 821.50it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|▉         | 10/105 [00:00<00:00, 770.93it/s, Materializing param=bert.encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|▉         | 10/105 [00:00<00:00, 755.54it/s, Materializing param=bert.encoder.layer.0.attention.self.key.bias]Loading weights:  10%|█         | 11/105 [00:00<00:00, 788.08it/s, Materializing param=bert.encoder.layer.0.attention.self.key.weight]Loading weights:  10%|█         | 11/105 [00:00<00:00, 774.43it/s, Materializing param=bert.encoder.layer.0.attention.self.key.weight]Loading weights:  11%|█▏        | 12/105 [00:00<00:00, 802.78it/s, Materializing param=bert.encoder.layer.0.attention.self.query.bias]Loading weights:  11%|█▏        | 12/105 [00:00<00:00, 779.60it/s, Materializing param=bert.encoder.layer.0.attention.self.query.bias]Loading weights:  12%|█▏        | 13/105 [00:00<00:00, 805.17it/s, Materializing param=bert.encoder.layer.0.attention.self.query.weight]Loading weights:  12%|█▏        | 13/105 [00:00<00:00, 784.00it/s, Materializing param=bert.encoder.layer.0.attention.self.query.weight]Loading weights:  13%|█▎        | 14/105 [00:00<00:00, 821.14it/s, Materializing param=bert.encoder.layer.0.attention.self.value.bias]  Loading weights:  13%|█▎        | 14/105 [00:00<00:00, 802.53it/s, Materializing param=bert.encoder.layer.0.attention.self.value.bias]Loading weights:  14%|█▍        | 15/105 [00:00<00:00, 835.39it/s, Materializing param=bert.encoder.layer.0.attention.self.value.weight]Loading weights:  14%|█▍        | 15/105 [00:00<00:00, 823.45it/s, Materializing param=bert.encoder.layer.0.attention.self.value.weight]Loading weights:  15%|█▌        | 16/105 [00:00<00:00, 858.62it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.bias]    Loading weights:  15%|█▌        | 16/105 [00:00<00:00, 848.04it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.bias]Loading weights:  16%|█▌        | 17/105 [00:00<00:00, 882.93it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.weight]Loading weights:  16%|█▌        | 17/105 [00:00<00:00, 870.11it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|█▋        | 18/105 [00:00<00:00, 901.86it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|█▋        | 18/105 [00:00<00:00, 891.95it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|█▊        | 19/105 [00:00<00:00, 927.34it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|█▊        | 19/105 [00:00<00:00, 914.24it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|█▉        | 20/105 [00:00<00:00, 941.19it/s, Materializing param=bert.encoder.layer.0.output.dense.bias]      Loading weights:  19%|█▉        | 20/105 [00:00<00:00, 925.09it/s, Materializing param=bert.encoder.layer.0.output.dense.bias]Loading weights:  20%|██        | 21/105 [00:00<00:00, 954.35it/s, Materializing param=bert.encoder.layer.0.output.dense.weight]Loading weights:  20%|██        | 21/105 [00:00<00:00, 944.31it/s, Materializing param=bert.encoder.layer.0.output.dense.weight]Loading weights:  21%|██        | 22/105 [00:00<00:00, 974.52it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|██        | 22/105 [00:00<00:00, 965.59it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|██▏       | 23/105 [00:00<00:00, 987.42it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|██▏       | 23/105 [00:00<00:00, 979.39it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|██▎       | 24/105 [00:00<00:00, 1003.60it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.bias]     Loading weights:  23%|██▎       | 24/105 [00:00<00:00, 995.11it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.bias] Loading weights:  24%|██▍       | 25/105 [00:00<00:00, 1012.90it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|██▍       | 25/105 [00:00<00:00, 1005.47it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|██▍       | 26/105 [00:00<00:00, 1026.10it/s, Materializing param=bert.encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|██▍       | 26/105 [00:00<00:00, 1015.73it/s, Materializing param=bert.encoder.layer.1.attention.self.key.bias]Loading weights:  26%|██▌       | 27/105 [00:00<00:00, 1039.00it/s, Materializing param=bert.encoder.layer.1.attention.self.key.weight]Loading weights:  26%|██▌       | 27/105 [00:00<00:00, 1031.90it/s, Materializing param=bert.encoder.layer.1.attention.self.key.weight]Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 1051.50it/s, Materializing param=bert.encoder.layer.1.attention.self.query.bias]Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 1044.57it/s, Materializing param=bert.encoder.layer.1.attention.self.query.bias]Loading weights:  28%|██▊       | 29/105 [00:00<00:00, 1061.95it/s, Materializing param=bert.encoder.layer.1.attention.self.query.weight]Loading weights:  28%|██▊       | 29/105 [00:00<00:00, 1052.63it/s, Materializing param=bert.encoder.layer.1.attention.self.query.weight]Loading weights:  29%|██▊       | 30/105 [00:00<00:00, 1074.99it/s, Materializing param=bert.encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|██▊       | 30/105 [00:00<00:00, 1063.82it/s, Materializing param=bert.encoder.layer.1.attention.self.value.bias]Loading weights:  30%|██▉       | 31/105 [00:00<00:00, 1086.84it/s, Materializing param=bert.encoder.layer.1.attention.self.value.weight]Loading weights:  30%|██▉       | 31/105 [00:00<00:00, 1074.73it/s, Materializing param=bert.encoder.layer.1.attention.self.value.weight]Loading weights:  30%|███       | 32/105 [00:00<00:00, 1095.65it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.bias]    Loading weights:  30%|███       | 32/105 [00:00<00:00, 1087.99it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.bias]Loading weights:  31%|███▏      | 33/105 [00:00<00:00, 1108.78it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.weight]Loading weights:  31%|███▏      | 33/105 [00:00<00:00, 1098.03it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|███▏      | 34/105 [00:00<00:00, 1119.45it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.bias]    Loading weights:  32%|███▏      | 34/105 [00:00<00:00, 1108.23it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.bias]Loading weights:  33%|███▎      | 35/105 [00:00<00:00, 1128.25it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.weight]Loading weights:  33%|███▎      | 35/105 [00:00<00:00, 1116.92it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|███▍      | 36/105 [00:00<00:00, 1134.24it/s, Materializing param=bert.encoder.layer.1.output.dense.bias]      Loading weights:  34%|███▍      | 36/105 [00:00<00:00, 1125.49it/s, Materializing param=bert.encoder.layer.1.output.dense.bias]Loading weights:  35%|███▌      | 37/105 [00:00<00:00, 1141.01it/s, Materializing param=bert.encoder.layer.1.output.dense.weight]Loading weights:  35%|███▌      | 37/105 [00:00<00:00, 1128.12it/s, Materializing param=bert.encoder.layer.1.output.dense.weight]Loading weights:  36%|███▌      | 38/105 [00:00<00:00, 1148.19it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  36%|███▌      | 38/105 [00:00<00:00, 1138.62it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|███▋      | 39/105 [00:00<00:00, 1152.36it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  37%|███▋      | 39/105 [00:00<00:00, 1140.26it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|███▊      | 40/105 [00:00<00:00, 1156.18it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.bias]      Loading weights:  38%|███▊      | 40/105 [00:00<00:00, 1149.62it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.bias]Loading weights:  39%|███▉      | 41/105 [00:00<00:00, 1167.66it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.weight]Loading weights:  39%|███▉      | 41/105 [00:00<00:00, 1158.13it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|████      | 42/105 [00:00<00:00, 1166.20it/s, Materializing param=bert.encoder.layer.2.attention.self.key.bias]      Loading weights:  40%|████      | 42/105 [00:00<00:00, 1158.08it/s, Materializing param=bert.encoder.layer.2.attention.self.key.bias]Loading weights:  41%|████      | 43/105 [00:00<00:00, 1171.00it/s, Materializing param=bert.encoder.layer.2.attention.self.key.weight]Loading weights:  41%|████      | 43/105 [00:00<00:00, 1161.74it/s, Materializing param=bert.encoder.layer.2.attention.self.key.weight]Loading weights:  42%|████▏     | 44/105 [00:00<00:00, 1178.22it/s, Materializing param=bert.encoder.layer.2.attention.self.query.bias]Loading weights:  42%|████▏     | 44/105 [00:00<00:00, 1170.68it/s, Materializing param=bert.encoder.layer.2.attention.self.query.bias]Loading weights:  43%|████▎     | 45/105 [00:00<00:00, 1186.02it/s, Materializing param=bert.encoder.layer.2.attention.self.query.weight]Loading weights:  43%|████▎     | 45/105 [00:00<00:00, 1174.44it/s, Materializing param=bert.encoder.layer.2.attention.self.query.weight]Loading weights:  44%|████▍     | 46/105 [00:00<00:00, 1187.94it/s, Materializing param=bert.encoder.layer.2.attention.self.value.bias]  Loading weights:  44%|████▍     | 46/105 [00:00<00:00, 1181.60it/s, Materializing param=bert.encoder.layer.2.attention.self.value.bias]Loading weights:  45%|████▍     | 47/105 [00:00<00:00, 1195.70it/s, Materializing param=bert.encoder.layer.2.attention.self.value.weight]Loading weights:  45%|████▍     | 47/105 [00:00<00:00, 1187.06it/s, Materializing param=bert.encoder.layer.2.attention.self.value.weight]Loading weights:  46%|████▌     | 48/105 [00:00<00:00, 1202.28it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.bias]    Loading weights:  46%|████▌     | 48/105 [00:00<00:00, 1196.33it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.bias]Loading weights:  47%|████▋     | 49/105 [00:00<00:00, 1209.08it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.weight]Loading weights:  47%|████▋     | 49/105 [00:00<00:00, 1200.79it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|████▊     | 50/105 [00:00<00:00, 1211.10it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.bias]    Loading weights:  48%|████▊     | 50/105 [00:00<00:00, 1205.41it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.bias]Loading weights:  49%|████▊     | 51/105 [00:00<00:00, 1213.84it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.weight]Loading weights:  49%|████▊     | 51/105 [00:00<00:00, 1207.35it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|████▉     | 52/105 [00:00<00:00, 1221.16it/s, Materializing param=bert.encoder.layer.2.output.dense.bias]      Loading weights:  50%|████▉     | 52/105 [00:00<00:00, 1215.39it/s, Materializing param=bert.encoder.layer.2.output.dense.bias]Loading weights:  50%|█████     | 53/105 [00:00<00:00, 1227.42it/s, Materializing param=bert.encoder.layer.2.output.dense.weight]Loading weights:  50%|█████     | 53/105 [00:00<00:00, 1221.79it/s, Materializing param=bert.encoder.layer.2.output.dense.weight]Loading weights:  51%|█████▏    | 54/105 [00:00<00:00, 1231.86it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  51%|█████▏    | 54/105 [00:00<00:00, 1226.59it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|█████▏    | 55/105 [00:00<00:00, 1237.60it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  52%|█████▏    | 55/105 [00:00<00:00, 1231.99it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|█████▎    | 56/105 [00:00<00:00, 1239.73it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.bias]      Loading weights:  53%|█████▎    | 56/105 [00:00<00:00, 1234.24it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.bias]Loading weights:  54%|█████▍    | 57/105 [00:00<00:00, 1246.90it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.weight]Loading weights:  54%|█████▍    | 57/105 [00:00<00:00, 1238.60it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|█████▌    | 58/105 [00:00<00:00, 1248.87it/s, Materializing param=bert.encoder.layer.3.attention.self.key.bias]      Loading weights:  55%|█████▌    | 58/105 [00:00<00:00, 1239.51it/s, Materializing param=bert.encoder.layer.3.attention.self.key.bias]Loading weights:  56%|█████▌    | 59/105 [00:00<00:00, 1249.75it/s, Materializing param=bert.encoder.layer.3.attention.self.key.weight]Loading weights:  56%|█████▌    | 59/105 [00:00<00:00, 1243.79it/s, Materializing param=bert.encoder.layer.3.attention.self.key.weight]Loading weights:  57%|█████▋    | 60/105 [00:00<00:00, 1250.50it/s, Materializing param=bert.encoder.layer.3.attention.self.query.bias]Loading weights:  57%|█████▋    | 60/105 [00:00<00:00, 1245.85it/s, Materializing param=bert.encoder.layer.3.attention.self.query.bias]Loading weights:  58%|█████▊    | 61/105 [00:00<00:00, 1253.01it/s, Materializing param=bert.encoder.layer.3.attention.self.query.weight]Loading weights:  58%|█████▊    | 61/105 [00:00<00:00, 1248.02it/s, Materializing param=bert.encoder.layer.3.attention.self.query.weight]Loading weights:  59%|█████▉    | 62/105 [00:00<00:00, 1259.11it/s, Materializing param=bert.encoder.layer.3.attention.self.value.bias]  Loading weights:  59%|█████▉    | 62/105 [00:00<00:00, 1254.74it/s, Materializing param=bert.encoder.layer.3.attention.self.value.bias]Loading weights:  60%|██████    | 63/105 [00:00<00:00, 1264.32it/s, Materializing param=bert.encoder.layer.3.attention.self.value.weight]Loading weights:  60%|██████    | 63/105 [00:00<00:00, 1259.20it/s, Materializing param=bert.encoder.layer.3.attention.self.value.weight]Loading weights:  61%|██████    | 64/105 [00:00<00:00, 1268.56it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.bias]    Loading weights:  61%|██████    | 64/105 [00:00<00:00, 1262.30it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.bias]Loading weights:  62%|██████▏   | 65/105 [00:00<00:00, 1271.95it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.weight]Loading weights:  62%|██████▏   | 65/105 [00:00<00:00, 1264.01it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|██████▎   | 66/105 [00:00<00:00, 1275.16it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.bias]    Loading weights:  63%|██████▎   | 66/105 [00:00<00:00, 1268.13it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.bias]Loading weights:  64%|██████▍   | 67/105 [00:00<00:00, 1278.79it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.weight]Loading weights:  64%|██████▍   | 67/105 [00:00<00:00, 1272.96it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|██████▍   | 68/105 [00:00<00:00, 1281.19it/s, Materializing param=bert.encoder.layer.3.output.dense.bias]      Loading weights:  65%|██████▍   | 68/105 [00:00<00:00, 1274.51it/s, Materializing param=bert.encoder.layer.3.output.dense.bias]Loading weights:  66%|██████▌   | 69/105 [00:00<00:00, 1282.48it/s, Materializing param=bert.encoder.layer.3.output.dense.weight]Loading weights:  66%|██████▌   | 69/105 [00:00<00:00, 1277.01it/s, Materializing param=bert.encoder.layer.3.output.dense.weight]Loading weights:  67%|██████▋   | 70/105 [00:00<00:00, 1286.11it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  67%|██████▋   | 70/105 [00:00<00:00, 1281.54it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|██████▊   | 71/105 [00:00<00:00, 1289.59it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  68%|██████▊   | 71/105 [00:00<00:00, 1284.38it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|██████▊   | 72/105 [00:00<00:00, 1290.72it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.bias]      Loading weights:  69%|██████▊   | 72/105 [00:00<00:00, 1286.09it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.bias]Loading weights:  70%|██████▉   | 73/105 [00:00<00:00, 1293.67it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.weight]Loading weights:  70%|██████▉   | 73/105 [00:00<00:00, 1287.54it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.weight]Loading weights:  70%|███████   | 74/105 [00:00<00:00, 1294.54it/s, Materializing param=bert.encoder.layer.4.attention.self.key.bias]      Loading weights:  70%|███████   | 74/105 [00:00<00:00, 1288.49it/s, Materializing param=bert.encoder.layer.4.attention.self.key.bias]Loading weights:  71%|███████▏  | 75/105 [00:00<00:00, 1297.57it/s, Materializing param=bert.encoder.layer.4.attention.self.key.weight]Loading weights:  71%|███████▏  | 75/105 [00:00<00:00, 1292.71it/s, Materializing param=bert.encoder.layer.4.attention.self.key.weight]Loading weights:  72%|███████▏  | 76/105 [00:00<00:00, 1300.61it/s, Materializing param=bert.encoder.layer.4.attention.self.query.bias]Loading weights:  72%|███████▏  | 76/105 [00:00<00:00, 1294.84it/s, Materializing param=bert.encoder.layer.4.attention.self.query.bias]Loading weights:  73%|███████▎  | 77/105 [00:00<00:00, 1303.25it/s, Materializing param=bert.encoder.layer.4.attention.self.query.weight]Loading weights:  73%|███████▎  | 77/105 [00:00<00:00, 1299.04it/s, Materializing param=bert.encoder.layer.4.attention.self.query.weight]Loading weights:  74%|███████▍  | 78/105 [00:00<00:00, 1305.85it/s, Materializing param=bert.encoder.layer.4.attention.self.value.bias]  Loading weights:  74%|███████▍  | 78/105 [00:00<00:00, 1301.87it/s, Materializing param=bert.encoder.layer.4.attention.self.value.bias]Loading weights:  75%|███████▌  | 79/105 [00:00<00:00, 1307.37it/s, Materializing param=bert.encoder.layer.4.attention.self.value.weight]Loading weights:  75%|███████▌  | 79/105 [00:00<00:00, 1302.58it/s, Materializing param=bert.encoder.layer.4.attention.self.value.weight]Loading weights:  76%|███████▌  | 80/105 [00:00<00:00, 1310.28it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.bias]    Loading weights:  76%|███████▌  | 80/105 [00:00<00:00, 1304.34it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.bias]Loading weights:  77%|███████▋  | 81/105 [00:00<00:00, 1312.32it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.weight]Loading weights:  77%|███████▋  | 81/105 [00:00<00:00, 1305.69it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.weight]Loading weights:  78%|███████▊  | 82/105 [00:00<00:00, 1313.52it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.bias]    Loading weights:  78%|███████▊  | 82/105 [00:00<00:00, 1307.71it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.bias]Loading weights:  79%|███████▉  | 83/105 [00:00<00:00, 1316.37it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.weight]Loading weights:  79%|███████▉  | 83/105 [00:00<00:00, 1308.65it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.weight]Loading weights:  80%|████████  | 84/105 [00:00<00:00, 1315.12it/s, Materializing param=bert.encoder.layer.4.output.dense.bias]      Loading weights:  80%|████████  | 84/105 [00:00<00:00, 1307.97it/s, Materializing param=bert.encoder.layer.4.output.dense.bias]Loading weights:  81%|████████  | 85/105 [00:00<00:00, 1313.80it/s, Materializing param=bert.encoder.layer.4.output.dense.weight]Loading weights:  81%|████████  | 85/105 [00:00<00:00, 1309.32it/s, Materializing param=bert.encoder.layer.4.output.dense.weight]Loading weights:  82%|████████▏ | 86/105 [00:00<00:00, 1317.81it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  82%|████████▏ | 86/105 [00:00<00:00, 1313.74it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|████████▎ | 87/105 [00:00<00:00, 1322.57it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  83%|████████▎ | 87/105 [00:00<00:00, 1315.36it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|████████▍ | 88/105 [00:00<00:00, 1322.30it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.bias]      Loading weights:  84%|████████▍ | 88/105 [00:00<00:00, 1316.02it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.bias]Loading weights:  85%|████████▍ | 89/105 [00:00<00:00, 1320.63it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.weight]Loading weights:  85%|████████▍ | 89/105 [00:00<00:00, 1316.70it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|████████▌ | 90/105 [00:00<00:00, 1322.46it/s, Materializing param=bert.encoder.layer.5.attention.self.key.bias]      Loading weights:  86%|████████▌ | 90/105 [00:00<00:00, 1318.10it/s, Materializing param=bert.encoder.layer.5.attention.self.key.bias]Loading weights:  87%|████████▋ | 91/105 [00:00<00:00, 1325.55it/s, Materializing param=bert.encoder.layer.5.attention.self.key.weight]Loading weights:  87%|████████▋ | 91/105 [00:00<00:00, 1319.27it/s, Materializing param=bert.encoder.layer.5.attention.self.key.weight]Loading weights:  88%|████████▊ | 92/105 [00:00<00:00, 1324.35it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  88%|████████▊ | 92/105 [00:00<00:00, 1320.33it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 1325.04it/s, Materializing param=bert.encoder.layer.5.attention.self.query.weight]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 1321.30it/s, Materializing param=bert.encoder.layer.5.attention.self.query.weight]Loading weights:  90%|████████▉ | 94/105 [00:00<00:00, 1326.73it/s, Materializing param=bert.encoder.layer.5.attention.self.value.bias]  Loading weights:  90%|████████▉ | 94/105 [00:00<00:00, 1322.80it/s, Materializing param=bert.encoder.layer.5.attention.self.value.bias]Loading weights:  90%|█████████ | 95/105 [00:00<00:00, 1329.22it/s, Materializing param=bert.encoder.layer.5.attention.self.value.weight]Loading weights:  90%|█████████ | 95/105 [00:00<00:00, 1323.50it/s, Materializing param=bert.encoder.layer.5.attention.self.value.weight]Loading weights:  91%|█████████▏| 96/105 [00:00<00:00, 1331.28it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.bias]    Loading weights:  91%|█████████▏| 96/105 [00:00<00:00, 1326.84it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.bias]Loading weights:  92%|█████████▏| 97/105 [00:00<00:00, 1332.88it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.weight]Loading weights:  92%|█████████▏| 97/105 [00:00<00:00, 1326.74it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.weight]Loading weights:  93%|█████████▎| 98/105 [00:00<00:00, 1334.65it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.bias]    Loading weights:  93%|█████████▎| 98/105 [00:00<00:00, 1328.76it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.bias]Loading weights:  94%|█████████▍| 99/105 [00:00<00:00, 1335.06it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.weight]Loading weights:  94%|█████████▍| 99/105 [00:00<00:00, 1330.58it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.weight]Loading weights:  95%|█████████▌| 100/105 [00:00<00:00, 1334.84it/s, Materializing param=bert.encoder.layer.5.output.dense.bias]     Loading weights:  95%|█████████▌| 100/105 [00:00<00:00, 1331.36it/s, Materializing param=bert.encoder.layer.5.output.dense.bias]Loading weights:  96%|█████████▌| 101/105 [00:00<00:00, 1337.02it/s, Materializing param=bert.encoder.layer.5.output.dense.weight]Loading weights:  96%|█████████▌| 101/105 [00:00<00:00, 1332.91it/s, Materializing param=bert.encoder.layer.5.output.dense.weight]Loading weights:  97%|█████████▋| 102/105 [00:00<00:00, 1337.43it/s, Materializing param=bert.pooler.dense.bias]                  Loading weights:  97%|█████████▋| 102/105 [00:00<00:00, 1333.91it/s, Materializing param=bert.pooler.dense.bias]Loading weights:  98%|█████████▊| 103/105 [00:00<00:00, 1339.34it/s, Materializing param=bert.pooler.dense.weight]Loading weights:  98%|█████████▊| 103/105 [00:00<00:00, 1335.73it/s, Materializing param=bert.pooler.dense.weight]Loading weights:  99%|█████████▉| 104/105 [00:00<00:00, 1341.06it/s, Materializing param=classifier.bias]         Loading weights:  99%|█████████▉| 104/105 [00:00<00:00, 1334.60it/s, Materializing param=classifier.bias]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1342.53it/s, Materializing param=classifier.weight]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1337.79it/s, Materializing param=classifier.weight]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1329.27it/s, Materializing param=classifier.weight]
-BertForSequenceClassification LOAD REPORT from: cross-encoder/ms-marco-MiniLM-L-6-v2
-Key                          | Status     |  | 
------------------------------+------------+--+-
-bert.embeddings.position_ids | UNEXPECTED |  | 
-
-Notes:
-- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:   1%|          | 1/103 [00:00<00:00, 26214.40it/s, Materializing param=embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/103 [00:00<00:00, 3685.68it/s, Materializing param=embeddings.LayerNorm.bias] Loading weights:   2%|▏         | 2/103 [00:00<00:00, 3142.98it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   2%|▏         | 2/103 [00:00<00:00, 2391.28it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   3%|▎         | 3/103 [00:00<00:00, 2153.13it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   3%|▎         | 3/103 [00:00<00:00, 1870.79it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   4%|▍         | 4/103 [00:00<00:00, 2056.28it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   4%|▍         | 4/103 [00:00<00:00, 1792.44it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   5%|▍         | 5/103 [00:00<00:00, 1518.57it/s, Materializing param=embeddings.word_embeddings.weight]      Loading weights:   5%|▍         | 5/103 [00:00<00:00, 959.18it/s, Materializing param=embeddings.word_embeddings.weight] Loading weights:   6%|▌         | 6/103 [00:00<00:00, 1055.48it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|▌         | 6/103 [00:00<00:00, 978.83it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias] Loading weights:   7%|▋         | 7/103 [00:00<00:00, 1058.98it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|▋         | 7/103 [00:00<00:00, 1000.04it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|▊         | 8/103 [00:00<00:00, 943.87it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]       Loading weights:   8%|▊         | 8/103 [00:00<00:00, 884.45it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|▊         | 9/103 [00:00<00:00, 950.78it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|▊         | 9/103 [00:00<00:00, 915.23it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|▉         | 10/103 [00:00<00:00, 972.34it/s, Materializing param=encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|▉         | 10/103 [00:00<00:00, 827.90it/s, Materializing param=encoder.layer.0.attention.self.key.bias]Loading weights:  11%|█         | 11/103 [00:00<00:00, 879.01it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  11%|█         | 11/103 [00:00<00:00, 865.08it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  12%|█▏        | 12/103 [00:00<00:00, 898.76it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  12%|█▏        | 12/103 [00:00<00:00, 863.43it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  13%|█▎        | 13/103 [00:00<00:00, 897.34it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  13%|█▎        | 13/103 [00:00<00:00, 862.56it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  14%|█▎        | 14/103 [00:00<00:00, 906.50it/s, Materializing param=encoder.layer.0.attention.self.value.bias]  Loading weights:  14%|█▎        | 14/103 [00:00<00:00, 884.26it/s, Materializing param=encoder.layer.0.attention.self.value.bias]Loading weights:  15%|█▍        | 15/103 [00:00<00:00, 912.53it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  15%|█▍        | 15/103 [00:00<00:00, 858.93it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  16%|█▌        | 16/103 [00:00<00:00, 884.29it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]    Loading weights:  16%|█▌        | 16/103 [00:00<00:00, 857.25it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]Loading weights:  17%|█▋        | 17/103 [00:00<00:00, 890.58it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|█▋        | 17/103 [00:00<00:00, 881.78it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|█▋        | 18/103 [00:00<00:00, 916.79it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|█▋        | 18/103 [00:00<00:00, 907.93it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|█▊        | 19/103 [00:00<00:00, 944.43it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|█▊        | 19/103 [00:00<00:00, 932.45it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|█▉        | 20/103 [00:00<00:00, 926.90it/s, Materializing param=encoder.layer.0.output.dense.bias]      Loading weights:  19%|█▉        | 20/103 [00:00<00:00, 916.49it/s, Materializing param=encoder.layer.0.output.dense.bias]Loading weights:  20%|██        | 21/103 [00:00<00:00, 942.95it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  20%|██        | 21/103 [00:00<00:00, 929.76it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  21%|██▏       | 22/103 [00:00<00:00, 938.96it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|██▏       | 22/103 [00:00<00:00, 918.30it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|██▏       | 23/103 [00:00<00:00, 939.91it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|██▏       | 23/103 [00:00<00:00, 916.89it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|██▎       | 24/103 [00:00<00:00, 932.35it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|██▎       | 24/103 [00:00<00:00, 916.19it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|██▍       | 25/103 [00:00<00:00, 933.46it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|██▍       | 25/103 [00:00<00:00, 915.69it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|██▌       | 26/103 [00:00<00:00, 930.12it/s, Materializing param=encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|██▌       | 26/103 [00:00<00:00, 912.94it/s, Materializing param=encoder.layer.1.attention.self.key.bias]Loading weights:  26%|██▌       | 27/103 [00:00<00:00, 930.74it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  26%|██▌       | 27/103 [00:00<00:00, 913.87it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  27%|██▋       | 28/103 [00:00<00:00, 930.42it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  27%|██▋       | 28/103 [00:00<00:00, 912.62it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  28%|██▊       | 29/103 [00:00<00:00, 925.97it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  28%|██▊       | 29/103 [00:00<00:00, 909.53it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  29%|██▉       | 30/103 [00:00<00:00, 921.85it/s, Materializing param=encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|██▉       | 30/103 [00:00<00:00, 904.31it/s, Materializing param=encoder.layer.1.attention.self.value.bias]Loading weights:  30%|███       | 31/103 [00:00<00:00, 919.50it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  30%|███       | 31/103 [00:00<00:00, 902.99it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  31%|███       | 32/103 [00:00<00:00, 917.19it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]    Loading weights:  31%|███       | 32/103 [00:00<00:00, 902.54it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]Loading weights:  32%|███▏      | 33/103 [00:00<00:00, 912.56it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|███▏      | 33/103 [00:00<00:00, 895.95it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  33%|███▎      | 34/103 [00:00<00:00, 902.76it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]    Loading weights:  33%|███▎      | 34/103 [00:00<00:00, 894.73it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]Loading weights:  34%|███▍      | 35/103 [00:00<00:00, 906.85it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|███▍      | 35/103 [00:00<00:00, 885.95it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  35%|███▍      | 36/103 [00:00<00:00, 890.28it/s, Materializing param=encoder.layer.1.output.dense.bias]      Loading weights:  35%|███▍      | 36/103 [00:00<00:00, 879.11it/s, Materializing param=encoder.layer.1.output.dense.bias]Loading weights:  36%|███▌      | 37/103 [00:00<00:00, 888.01it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  36%|███▌      | 37/103 [00:00<00:00, 877.52it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  37%|███▋      | 38/103 [00:00<00:00, 889.50it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|███▋      | 38/103 [00:00<00:00, 876.18it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  38%|███▊      | 39/103 [00:00<00:00, 888.07it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|███▊      | 39/103 [00:00<00:00, 877.64it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  39%|███▉      | 40/103 [00:00<00:00, 888.65it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]      Loading weights:  39%|███▉      | 40/103 [00:00<00:00, 877.48it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]Loading weights:  40%|███▉      | 41/103 [00:00<00:00, 888.89it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|███▉      | 41/103 [00:00<00:00, 876.38it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  41%|████      | 42/103 [00:00<00:00, 886.45it/s, Materializing param=encoder.layer.2.attention.self.key.bias]      Loading weights:  41%|████      | 42/103 [00:00<00:00, 875.79it/s, Materializing param=encoder.layer.2.attention.self.key.bias]Loading weights:  42%|████▏     | 43/103 [00:00<00:00, 887.90it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  42%|████▏     | 43/103 [00:00<00:00, 876.84it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  43%|████▎     | 44/103 [00:00<00:00, 889.49it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  43%|████▎     | 44/103 [00:00<00:00, 878.50it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  44%|████▎     | 45/103 [00:00<00:00, 888.44it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  44%|████▎     | 45/103 [00:00<00:00, 878.22it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  45%|████▍     | 46/103 [00:00<00:00, 888.89it/s, Materializing param=encoder.layer.2.attention.self.value.bias]  Loading weights:  45%|████▍     | 46/103 [00:00<00:00, 879.57it/s, Materializing param=encoder.layer.2.attention.self.value.bias]Loading weights:  46%|████▌     | 47/103 [00:00<00:00, 889.71it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  46%|████▌     | 47/103 [00:00<00:00, 879.60it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  47%|████▋     | 48/103 [00:00<00:00, 883.02it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]    Loading weights:  47%|████▋     | 48/103 [00:00<00:00, 871.77it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]Loading weights:  48%|████▊     | 49/103 [00:00<00:00, 882.08it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|████▊     | 49/103 [00:00<00:00, 874.26it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  49%|████▊     | 50/103 [00:00<00:00, 882.89it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]    Loading weights:  49%|████▊     | 50/103 [00:00<00:00, 872.87it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]Loading weights:  50%|████▉     | 51/103 [00:00<00:00, 883.66it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|████▉     | 51/103 [00:00<00:00, 880.01it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|█████     | 52/103 [00:00<00:00, 890.26it/s, Materializing param=encoder.layer.2.output.dense.bias]      Loading weights:  50%|█████     | 52/103 [00:00<00:00, 884.34it/s, Materializing param=encoder.layer.2.output.dense.bias]Loading weights:  51%|█████▏    | 53/103 [00:00<00:00, 889.87it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  51%|█████▏    | 53/103 [00:00<00:00, 879.55it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  52%|█████▏    | 54/103 [00:00<00:00, 883.12it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|█████▏    | 54/103 [00:00<00:00, 874.09it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  53%|█████▎    | 55/103 [00:00<00:00, 877.60it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|█████▎    | 55/103 [00:00<00:00, 865.07it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  54%|█████▍    | 56/103 [00:00<00:00, 871.69it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]      Loading weights:  54%|█████▍    | 56/103 [00:00<00:00, 861.22it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]Loading weights:  55%|█████▌    | 57/103 [00:00<00:00, 869.08it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|█████▌    | 57/103 [00:00<00:00, 864.96it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  56%|█████▋    | 58/103 [00:00<00:00, 873.41it/s, Materializing param=encoder.layer.3.attention.self.key.bias]      Loading weights:  56%|█████▋    | 58/103 [00:00<00:00, 862.27it/s, Materializing param=encoder.layer.3.attention.self.key.bias]Loading weights:  57%|█████▋    | 59/103 [00:00<00:00, 868.54it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  57%|█████▋    | 59/103 [00:00<00:00, 860.18it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  58%|█████▊    | 60/103 [00:00<00:00, 866.70it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  58%|█████▊    | 60/103 [00:00<00:00, 855.78it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  59%|█████▉    | 61/103 [00:00<00:00, 862.17it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  59%|█████▉    | 61/103 [00:00<00:00, 852.57it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  60%|██████    | 62/103 [00:00<00:00, 857.85it/s, Materializing param=encoder.layer.3.attention.self.value.bias]  Loading weights:  60%|██████    | 62/103 [00:00<00:00, 852.93it/s, Materializing param=encoder.layer.3.attention.self.value.bias]Loading weights:  61%|██████    | 63/103 [00:00<00:00, 855.39it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  61%|██████    | 63/103 [00:00<00:00, 831.54it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  62%|██████▏   | 64/103 [00:00<00:00, 838.42it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]    Loading weights:  62%|██████▏   | 64/103 [00:00<00:00, 832.29it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]Loading weights:  63%|██████▎   | 65/103 [00:00<00:00, 840.05it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|██████▎   | 65/103 [00:00<00:00, 833.35it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  64%|██████▍   | 66/103 [00:00<00:00, 838.17it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]    Loading weights:  64%|██████▍   | 66/103 [00:00<00:00, 830.73it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]Loading weights:  65%|██████▌   | 67/103 [00:00<00:00, 836.67it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|██████▌   | 67/103 [00:00<00:00, 828.92it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  66%|██████▌   | 68/103 [00:00<00:00, 831.96it/s, Materializing param=encoder.layer.3.output.dense.bias]      Loading weights:  66%|██████▌   | 68/103 [00:00<00:00, 827.48it/s, Materializing param=encoder.layer.3.output.dense.bias]Loading weights:  67%|██████▋   | 69/103 [00:00<00:00, 832.44it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  67%|██████▋   | 69/103 [00:00<00:00, 828.29it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  68%|██████▊   | 70/103 [00:00<00:00, 833.94it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|██████▊   | 70/103 [00:00<00:00, 827.93it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  69%|██████▉   | 71/103 [00:00<00:00, 835.91it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|██████▉   | 71/103 [00:00<00:00, 832.73it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  70%|██████▉   | 72/103 [00:00<00:00, 840.74it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]      Loading weights:  70%|██████▉   | 72/103 [00:00<00:00, 837.73it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]Loading weights:  71%|███████   | 73/103 [00:00<00:00, 844.52it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  71%|███████   | 73/103 [00:00<00:00, 841.74it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  72%|███████▏  | 74/103 [00:00<00:00, 849.68it/s, Materializing param=encoder.layer.4.attention.self.key.bias]      Loading weights:  72%|███████▏  | 74/103 [00:00<00:00, 847.36it/s, Materializing param=encoder.layer.4.attention.self.key.bias]Loading weights:  73%|███████▎  | 75/103 [00:00<00:00, 854.28it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  73%|███████▎  | 75/103 [00:00<00:00, 841.24it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  74%|███████▍  | 76/103 [00:00<00:00, 846.27it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  74%|███████▍  | 76/103 [00:00<00:00, 840.99it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  75%|███████▍  | 77/103 [00:00<00:00, 846.99it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  75%|███████▍  | 77/103 [00:00<00:00, 842.04it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  76%|███████▌  | 78/103 [00:00<00:00, 849.37it/s, Materializing param=encoder.layer.4.attention.self.value.bias]  Loading weights:  76%|███████▌  | 78/103 [00:00<00:00, 844.54it/s, Materializing param=encoder.layer.4.attention.self.value.bias]Loading weights:  77%|███████▋  | 79/103 [00:00<00:00, 848.28it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  77%|███████▋  | 79/103 [00:00<00:00, 844.75it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  78%|███████▊  | 80/103 [00:00<00:00, 851.79it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]    Loading weights:  78%|███████▊  | 80/103 [00:00<00:00, 848.72it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]Loading weights:  79%|███████▊  | 81/103 [00:00<00:00, 854.63it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  79%|███████▊  | 81/103 [00:00<00:00, 850.54it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  80%|███████▉  | 82/103 [00:00<00:00, 856.75it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]    Loading weights:  80%|███████▉  | 82/103 [00:00<00:00, 854.18it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]Loading weights:  81%|████████  | 83/103 [00:00<00:00, 860.43it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  81%|████████  | 83/103 [00:00<00:00, 854.57it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  82%|████████▏ | 84/103 [00:00<00:00, 859.78it/s, Materializing param=encoder.layer.4.output.dense.bias]      Loading weights:  82%|████████▏ | 84/103 [00:00<00:00, 855.68it/s, Materializing param=encoder.layer.4.output.dense.bias]Loading weights:  83%|████████▎ | 85/103 [00:00<00:00, 859.89it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|████████▎ | 85/103 [00:00<00:00, 856.94it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|████████▎ | 86/103 [00:00<00:00, 862.55it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|████████▎ | 86/103 [00:00<00:00, 859.91it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  84%|████████▍ | 87/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  84%|████████▍ | 87/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|████████▍ | 87/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  85%|████████▌ | 88/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]      Loading weights:  85%|████████▌ | 88/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]Loading weights:  86%|████████▋ | 89/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|████████▋ | 89/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  87%|████████▋ | 90/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.key.bias]      Loading weights:  87%|████████▋ | 90/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.key.bias]Loading weights:  88%|████████▊ | 91/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  88%|████████▊ | 91/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  89%|████████▉ | 92/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  89%|████████▉ | 92/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  90%|█████████ | 93/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  90%|█████████ | 93/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  91%|█████████▏| 94/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.value.bias]  Loading weights:  91%|█████████▏| 94/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.value.bias]Loading weights:  92%|█████████▏| 95/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  92%|█████████▏| 95/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  93%|█████████▎| 96/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]    Loading weights:  93%|█████████▎| 96/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]Loading weights:  94%|█████████▍| 97/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  94%|█████████▍| 97/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  95%|█████████▌| 98/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]    Loading weights:  95%|█████████▌| 98/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]Loading weights:  96%|█████████▌| 99/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  96%|█████████▌| 99/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  97%|█████████▋| 100/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.dense.bias]     Loading weights:  97%|█████████▋| 100/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.dense.bias]Loading weights:  98%|█████████▊| 101/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  98%|█████████▊| 101/103 [00:00<00:00, 865.23it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  99%|█████████▉| 102/103 [00:00<00:00, 865.23it/s, Materializing param=pooler.dense.bias]                  Loading weights:  99%|█████████▉| 102/103 [00:00<00:00, 865.23it/s, Materializing param=pooler.dense.bias]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 865.23it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 865.23it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 908.99it/s, Materializing param=pooler.dense.weight]
-BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
-Key                     | Status     |  | 
-------------------------+------------+--+-
-embeddings.position_ids | UNEXPECTED |  | 
-
-Notes:
-- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights:   1%|          | 1/105 [00:00<00:00, 30393.51it/s, Materializing param=bert.embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/105 [00:00<00:00, 1679.06it/s, Materializing param=bert.embeddings.LayerNorm.bias] Loading weights:   2%|▏         | 2/105 [00:00<00:00, 1639.04it/s, Materializing param=bert.embeddings.LayerNorm.weight]Loading weights:   2%|▏         | 2/105 [00:00<00:00, 1225.69it/s, Materializing param=bert.embeddings.LayerNorm.weight]Loading weights:   3%|▎         | 3/105 [00:00<00:00, 1217.27it/s, Materializing param=bert.embeddings.position_embeddings.weight]Loading weights:   3%|▎         | 3/105 [00:00<00:00, 1095.21it/s, Materializing param=bert.embeddings.position_embeddings.weight]Loading weights:   4%|▍         | 4/105 [00:00<00:00, 1277.39it/s, Materializing param=bert.embeddings.token_type_embeddings.weight]Loading weights:   4%|▍         | 4/105 [00:00<00:00, 1159.69it/s, Materializing param=bert.embeddings.token_type_embeddings.weight]Loading weights:   5%|▍         | 5/105 [00:00<00:00, 1294.86it/s, Materializing param=bert.embeddings.word_embeddings.weight]      Loading weights:   5%|▍         | 5/105 [00:00<00:00, 695.43it/s, Materializing param=bert.embeddings.word_embeddings.weight] Loading weights:   6%|▌         | 6/105 [00:00<00:00, 793.85it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|▌         | 6/105 [00:00<00:00, 767.25it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|▋         | 7/105 [00:00<00:00, 850.33it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|▋         | 7/105 [00:00<00:00, 827.23it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|▊         | 8/105 [00:00<00:00, 903.77it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|▊         | 8/105 [00:00<00:00, 875.80it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|▊         | 9/105 [00:00<00:00, 932.97it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|▊         | 9/105 [00:00<00:00, 911.87it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|▉         | 10/105 [00:00<00:00, 965.54it/s, Materializing param=bert.encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|▉         | 10/105 [00:00<00:00, 938.76it/s, Materializing param=bert.encoder.layer.0.attention.self.key.bias]Loading weights:  10%|█         | 11/105 [00:00<00:00, 988.35it/s, Materializing param=bert.encoder.layer.0.attention.self.key.weight]Loading weights:  10%|█         | 11/105 [00:00<00:00, 940.06it/s, Materializing param=bert.encoder.layer.0.attention.self.key.weight]Loading weights:  11%|█▏        | 12/105 [00:00<00:00, 973.74it/s, Materializing param=bert.encoder.layer.0.attention.self.query.bias]Loading weights:  11%|█▏        | 12/105 [00:00<00:00, 933.85it/s, Materializing param=bert.encoder.layer.0.attention.self.query.bias]Loading weights:  12%|█▏        | 13/105 [00:00<00:00, 977.54it/s, Materializing param=bert.encoder.layer.0.attention.self.query.weight]Loading weights:  12%|█▏        | 13/105 [00:00<00:00, 934.24it/s, Materializing param=bert.encoder.layer.0.attention.self.query.weight]Loading weights:  13%|█▎        | 14/105 [00:00<00:00, 971.31it/s, Materializing param=bert.encoder.layer.0.attention.self.value.bias]  Loading weights:  13%|█▎        | 14/105 [00:00<00:00, 932.10it/s, Materializing param=bert.encoder.layer.0.attention.self.value.bias]Loading weights:  14%|█▍        | 15/105 [00:00<00:00, 958.39it/s, Materializing param=bert.encoder.layer.0.attention.self.value.weight]Loading weights:  14%|█▍        | 15/105 [00:00<00:00, 926.49it/s, Materializing param=bert.encoder.layer.0.attention.self.value.weight]Loading weights:  15%|█▌        | 16/105 [00:00<00:00, 953.37it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.bias]    Loading weights:  15%|█▌        | 16/105 [00:00<00:00, 908.19it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.bias]Loading weights:  16%|█▌        | 17/105 [00:00<00:00, 942.45it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.weight]Loading weights:  16%|█▌        | 17/105 [00:00<00:00, 912.88it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|█▋        | 18/105 [00:00<00:00, 937.97it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|█▋        | 18/105 [00:00<00:00, 910.18it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|█▊        | 19/105 [00:00<00:00, 937.65it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|█▊        | 19/105 [00:00<00:00, 909.05it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|█▉        | 20/105 [00:00<00:00, 933.72it/s, Materializing param=bert.encoder.layer.0.output.dense.bias]      Loading weights:  19%|█▉        | 20/105 [00:00<00:00, 904.93it/s, Materializing param=bert.encoder.layer.0.output.dense.bias]Loading weights:  20%|██        | 21/105 [00:00<00:00, 925.18it/s, Materializing param=bert.encoder.layer.0.output.dense.weight]Loading weights:  20%|██        | 21/105 [00:00<00:00, 905.05it/s, Materializing param=bert.encoder.layer.0.output.dense.weight]Loading weights:  21%|██        | 22/105 [00:00<00:00, 925.46it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|██        | 22/105 [00:00<00:00, 902.34it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|██▏       | 23/105 [00:00<00:00, 923.49it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|██▏       | 23/105 [00:00<00:00, 903.26it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|██▎       | 24/105 [00:00<00:00, 923.25it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|██▎       | 24/105 [00:00<00:00, 904.41it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|██▍       | 25/105 [00:00<00:00, 922.73it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|██▍       | 25/105 [00:00<00:00, 904.55it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|██▍       | 26/105 [00:00<00:00, 924.69it/s, Materializing param=bert.encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|██▍       | 26/105 [00:00<00:00, 905.03it/s, Materializing param=bert.encoder.layer.1.attention.self.key.bias]Loading weights:  26%|██▌       | 27/105 [00:00<00:00, 925.58it/s, Materializing param=bert.encoder.layer.1.attention.self.key.weight]Loading weights:  26%|██▌       | 27/105 [00:00<00:00, 907.44it/s, Materializing param=bert.encoder.layer.1.attention.self.key.weight]Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 923.96it/s, Materializing param=bert.encoder.layer.1.attention.self.query.bias]Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 908.10it/s, Materializing param=bert.encoder.layer.1.attention.self.query.bias]Loading weights:  28%|██▊       | 29/105 [00:00<00:00, 924.41it/s, Materializing param=bert.encoder.layer.1.attention.self.query.weight]Loading weights:  28%|██▊       | 29/105 [00:00<00:00, 906.79it/s, Materializing param=bert.encoder.layer.1.attention.self.query.weight]Loading weights:  29%|██▊       | 30/105 [00:00<00:00, 922.98it/s, Materializing param=bert.encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|██▊       | 30/105 [00:00<00:00, 903.72it/s, Materializing param=bert.encoder.layer.1.attention.self.value.bias]Loading weights:  30%|██▉       | 31/105 [00:00<00:00, 919.36it/s, Materializing param=bert.encoder.layer.1.attention.self.value.weight]Loading weights:  30%|██▉       | 31/105 [00:00<00:00, 902.87it/s, Materializing param=bert.encoder.layer.1.attention.self.value.weight]Loading weights:  30%|███       | 32/105 [00:00<00:00, 916.78it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.bias]    Loading weights:  30%|███       | 32/105 [00:00<00:00, 900.13it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.bias]Loading weights:  31%|███▏      | 33/105 [00:00<00:00, 916.13it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.weight]Loading weights:  31%|███▏      | 33/105 [00:00<00:00, 898.33it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|███▏      | 34/105 [00:00<00:00, 913.30it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.bias]    Loading weights:  32%|███▏      | 34/105 [00:00<00:00, 898.26it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.bias]Loading weights:  33%|███▎      | 35/105 [00:00<00:00, 912.76it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.weight]Loading weights:  33%|███▎      | 35/105 [00:00<00:00, 900.06it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|███▍      | 36/105 [00:00<00:00, 915.45it/s, Materializing param=bert.encoder.layer.1.output.dense.bias]      Loading weights:  34%|███▍      | 36/105 [00:00<00:00, 902.41it/s, Materializing param=bert.encoder.layer.1.output.dense.bias]Loading weights:  35%|███▌      | 37/105 [00:00<00:00, 914.03it/s, Materializing param=bert.encoder.layer.1.output.dense.weight]Loading weights:  35%|███▌      | 37/105 [00:00<00:00, 902.72it/s, Materializing param=bert.encoder.layer.1.output.dense.weight]Loading weights:  36%|███▌      | 38/105 [00:00<00:00, 915.93it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  36%|███▌      | 38/105 [00:00<00:00, 904.50it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|███▋      | 39/105 [00:00<00:00, 917.53it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  37%|███▋      | 39/105 [00:00<00:00, 907.03it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|███▊      | 40/105 [00:00<00:00, 917.85it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.bias]      Loading weights:  38%|███▊      | 40/105 [00:00<00:00, 904.52it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.bias]Loading weights:  39%|███▉      | 41/105 [00:00<00:00, 917.88it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.weight]Loading weights:  39%|███▉      | 41/105 [00:00<00:00, 905.62it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|████      | 42/105 [00:00<00:00, 916.92it/s, Materializing param=bert.encoder.layer.2.attention.self.key.bias]      Loading weights:  40%|████      | 42/105 [00:00<00:00, 907.28it/s, Materializing param=bert.encoder.layer.2.attention.self.key.bias]Loading weights:  41%|████      | 43/105 [00:00<00:00, 917.11it/s, Materializing param=bert.encoder.layer.2.attention.self.key.weight]Loading weights:  41%|████      | 43/105 [00:00<00:00, 906.67it/s, Materializing param=bert.encoder.layer.2.attention.self.key.weight]Loading weights:  42%|████▏     | 44/105 [00:00<00:00, 918.44it/s, Materializing param=bert.encoder.layer.2.attention.self.query.bias]Loading weights:  42%|████▏     | 44/105 [00:00<00:00, 907.83it/s, Materializing param=bert.encoder.layer.2.attention.self.query.bias]Loading weights:  43%|████▎     | 45/105 [00:00<00:00, 918.34it/s, Materializing param=bert.encoder.layer.2.attention.self.query.weight]Loading weights:  43%|████▎     | 45/105 [00:00<00:00, 906.28it/s, Materializing param=bert.encoder.layer.2.attention.self.query.weight]Loading weights:  44%|████▍     | 46/105 [00:00<00:00, 916.20it/s, Materializing param=bert.encoder.layer.2.attention.self.value.bias]  Loading weights:  44%|████▍     | 46/105 [00:00<00:00, 906.15it/s, Materializing param=bert.encoder.layer.2.attention.self.value.bias]Loading weights:  45%|████▍     | 47/105 [00:00<00:00, 916.78it/s, Materializing param=bert.encoder.layer.2.attention.self.value.weight]Loading weights:  45%|████▍     | 47/105 [00:00<00:00, 908.21it/s, Materializing param=bert.encoder.layer.2.attention.self.value.weight]Loading weights:  46%|████▌     | 48/105 [00:00<00:00, 919.13it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.bias]    Loading weights:  46%|████▌     | 48/105 [00:00<00:00, 906.25it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.bias]Loading weights:  47%|████▋     | 49/105 [00:00<00:00, 917.17it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.weight]Loading weights:  47%|████▋     | 49/105 [00:00<00:00, 906.72it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|████▊     | 50/105 [00:00<00:00, 917.80it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.bias]    Loading weights:  48%|████▊     | 50/105 [00:00<00:00, 907.60it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.bias]Loading weights:  49%|████▊     | 51/105 [00:00<00:00, 917.10it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.weight]Loading weights:  49%|████▊     | 51/105 [00:00<00:00, 908.42it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|████▉     | 52/105 [00:00<00:00, 919.20it/s, Materializing param=bert.encoder.layer.2.output.dense.bias]      Loading weights:  50%|████▉     | 52/105 [00:00<00:00, 909.16it/s, Materializing param=bert.encoder.layer.2.output.dense.bias]Loading weights:  50%|█████     | 53/105 [00:00<00:00, 918.47it/s, Materializing param=bert.encoder.layer.2.output.dense.weight]Loading weights:  50%|█████     | 53/105 [00:00<00:00, 910.71it/s, Materializing param=bert.encoder.layer.2.output.dense.weight]Loading weights:  51%|█████▏    | 54/105 [00:00<00:00, 919.26it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  51%|█████▏    | 54/105 [00:00<00:00, 910.52it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|█████▏    | 55/105 [00:00<00:00, 918.73it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  52%|█████▏    | 55/105 [00:00<00:00, 911.79it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|█████▎    | 56/105 [00:00<00:00, 920.78it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.bias]      Loading weights:  53%|█████▎    | 56/105 [00:00<00:00, 911.39it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.bias]Loading weights:  54%|█████▍    | 57/105 [00:00<00:00, 920.57it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.weight]Loading weights:  54%|█████▍    | 57/105 [00:00<00:00, 910.70it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|█████▌    | 58/105 [00:00<00:00, 919.36it/s, Materializing param=bert.encoder.layer.3.attention.self.key.bias]      Loading weights:  55%|█████▌    | 58/105 [00:00<00:00, 911.54it/s, Materializing param=bert.encoder.layer.3.attention.self.key.bias]Loading weights:  56%|█████▌    | 59/105 [00:00<00:00, 920.60it/s, Materializing param=bert.encoder.layer.3.attention.self.key.weight]Loading weights:  56%|█████▌    | 59/105 [00:00<00:00, 911.34it/s, Materializing param=bert.encoder.layer.3.attention.self.key.weight]Loading weights:  57%|█████▋    | 60/105 [00:00<00:00, 918.61it/s, Materializing param=bert.encoder.layer.3.attention.self.query.bias]Loading weights:  57%|█████▋    | 60/105 [00:00<00:00, 909.27it/s, Materializing param=bert.encoder.layer.3.attention.self.query.bias]Loading weights:  58%|█████▊    | 61/105 [00:00<00:00, 917.05it/s, Materializing param=bert.encoder.layer.3.attention.self.query.weight]Loading weights:  58%|█████▊    | 61/105 [00:00<00:00, 911.01it/s, Materializing param=bert.encoder.layer.3.attention.self.query.weight]Loading weights:  59%|█████▉    | 62/105 [00:00<00:00, 919.73it/s, Materializing param=bert.encoder.layer.3.attention.self.value.bias]  Loading weights:  59%|█████▉    | 62/105 [00:00<00:00, 911.51it/s, Materializing param=bert.encoder.layer.3.attention.self.value.bias]Loading weights:  60%|██████    | 63/105 [00:00<00:00, 919.55it/s, Materializing param=bert.encoder.layer.3.attention.self.value.weight]Loading weights:  60%|██████    | 63/105 [00:00<00:00, 912.77it/s, Materializing param=bert.encoder.layer.3.attention.self.value.weight]Loading weights:  61%|██████    | 64/105 [00:00<00:00, 919.61it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.bias]    Loading weights:  61%|██████    | 64/105 [00:00<00:00, 912.57it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.bias]Loading weights:  62%|██████▏   | 65/105 [00:00<00:00, 919.41it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.weight]Loading weights:  62%|██████▏   | 65/105 [00:00<00:00, 913.10it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|██████▎   | 66/105 [00:00<00:00, 919.64it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.bias]    Loading weights:  63%|██████▎   | 66/105 [00:00<00:00, 912.45it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.bias]Loading weights:  64%|██████▍   | 67/105 [00:00<00:00, 919.03it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.weight]Loading weights:  64%|██████▍   | 67/105 [00:00<00:00, 912.48it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|██████▍   | 68/105 [00:00<00:00, 919.81it/s, Materializing param=bert.encoder.layer.3.output.dense.bias]      Loading weights:  65%|██████▍   | 68/105 [00:00<00:00, 912.98it/s, Materializing param=bert.encoder.layer.3.output.dense.bias]Loading weights:  66%|██████▌   | 69/105 [00:00<00:00, 919.76it/s, Materializing param=bert.encoder.layer.3.output.dense.weight]Loading weights:  66%|██████▌   | 69/105 [00:00<00:00, 913.01it/s, Materializing param=bert.encoder.layer.3.output.dense.weight]Loading weights:  67%|██████▋   | 70/105 [00:00<00:00, 920.61it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  67%|██████▋   | 70/105 [00:00<00:00, 914.12it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|██████▊   | 71/105 [00:00<00:00, 921.23it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  68%|██████▊   | 71/105 [00:00<00:00, 915.50it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|██████▊   | 72/105 [00:00<00:00, 922.46it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.bias]      Loading weights:  69%|██████▊   | 72/105 [00:00<00:00, 915.55it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.bias]Loading weights:  70%|██████▉   | 73/105 [00:00<00:00, 921.99it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.weight]Loading weights:  70%|██████▉   | 73/105 [00:00<00:00, 916.05it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.weight]Loading weights:  70%|███████   | 74/105 [00:00<00:00, 922.59it/s, Materializing param=bert.encoder.layer.4.attention.self.key.bias]      Loading weights:  70%|███████   | 74/105 [00:00<00:00, 915.93it/s, Materializing param=bert.encoder.layer.4.attention.self.key.bias]Loading weights:  71%|███████▏  | 75/105 [00:00<00:00, 921.72it/s, Materializing param=bert.encoder.layer.4.attention.self.key.weight]Loading weights:  71%|███████▏  | 75/105 [00:00<00:00, 915.66it/s, Materializing param=bert.encoder.layer.4.attention.self.key.weight]Loading weights:  72%|███████▏  | 76/105 [00:00<00:00, 921.51it/s, Materializing param=bert.encoder.layer.4.attention.self.query.bias]Loading weights:  72%|███████▏  | 76/105 [00:00<00:00, 914.93it/s, Materializing param=bert.encoder.layer.4.attention.self.query.bias]Loading weights:  73%|███████▎  | 77/105 [00:00<00:00, 921.30it/s, Materializing param=bert.encoder.layer.4.attention.self.query.weight]Loading weights:  73%|███████▎  | 77/105 [00:00<00:00, 916.72it/s, Materializing param=bert.encoder.layer.4.attention.self.query.weight]Loading weights:  74%|███████▍  | 78/105 [00:00<00:00, 922.41it/s, Materializing param=bert.encoder.layer.4.attention.self.value.bias]  Loading weights:  74%|███████▍  | 78/105 [00:00<00:00, 916.39it/s, Materializing param=bert.encoder.layer.4.attention.self.value.bias]Loading weights:  75%|███████▌  | 79/105 [00:00<00:00, 922.47it/s, Materializing param=bert.encoder.layer.4.attention.self.value.weight]Loading weights:  75%|███████▌  | 79/105 [00:00<00:00, 915.68it/s, Materializing param=bert.encoder.layer.4.attention.self.value.weight]Loading weights:  76%|███████▌  | 80/105 [00:00<00:00, 922.43it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.bias]    Loading weights:  76%|███████▌  | 80/105 [00:00<00:00, 915.89it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.bias]Loading weights:  77%|███████▋  | 81/105 [00:00<00:00, 922.15it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.weight]Loading weights:  77%|███████▋  | 81/105 [00:00<00:00, 915.64it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.weight]Loading weights:  78%|███████▊  | 82/105 [00:00<00:00, 922.63it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.bias]    Loading weights:  78%|███████▊  | 82/105 [00:00<00:00, 916.71it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.bias]Loading weights:  79%|███████▉  | 83/105 [00:00<00:00, 922.94it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.weight]Loading weights:  79%|███████▉  | 83/105 [00:00<00:00, 917.24it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.weight]Loading weights:  80%|████████  | 84/105 [00:00<00:00, 923.08it/s, Materializing param=bert.encoder.layer.4.output.dense.bias]      Loading weights:  80%|████████  | 84/105 [00:00<00:00, 918.30it/s, Materializing param=bert.encoder.layer.4.output.dense.bias]Loading weights:  81%|████████  | 85/105 [00:00<00:00, 924.45it/s, Materializing param=bert.encoder.layer.4.output.dense.weight]Loading weights:  81%|████████  | 85/105 [00:00<00:00, 919.43it/s, Materializing param=bert.encoder.layer.4.output.dense.weight]Loading weights:  82%|████████▏ | 86/105 [00:00<00:00, 925.29it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  82%|████████▏ | 86/105 [00:00<00:00, 918.83it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|████████▎ | 87/105 [00:00<00:00, 924.85it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  83%|████████▎ | 87/105 [00:00<00:00, 917.48it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|████████▍ | 88/105 [00:00<00:00, 922.65it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.bias]      Loading weights:  84%|████████▍ | 88/105 [00:00<00:00, 917.00it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.bias]Loading weights:  85%|████████▍ | 89/105 [00:00<00:00, 922.13it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.weight]Loading weights:  85%|████████▍ | 89/105 [00:00<00:00, 917.51it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|████████▌ | 90/105 [00:00<00:00, 922.56it/s, Materializing param=bert.encoder.layer.5.attention.self.key.bias]      Loading weights:  86%|████████▌ | 90/105 [00:00<00:00, 917.67it/s, Materializing param=bert.encoder.layer.5.attention.self.key.bias]Loading weights:  87%|████████▋ | 91/105 [00:00<00:00, 922.65it/s, Materializing param=bert.encoder.layer.5.attention.self.key.weight]Loading weights:  87%|████████▋ | 91/105 [00:00<00:00, 917.46it/s, Materializing param=bert.encoder.layer.5.attention.self.key.weight]Loading weights:  88%|████████▊ | 92/105 [00:00<00:00, 922.17it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  88%|████████▊ | 92/105 [00:00<00:00, 917.25it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.query.weight]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.query.weight]Loading weights:  90%|████████▉ | 94/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.value.bias]  Loading weights:  90%|████████▉ | 94/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.value.bias]Loading weights:  90%|█████████ | 95/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.value.weight]Loading weights:  90%|█████████ | 95/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.attention.self.value.weight]Loading weights:  91%|█████████▏| 96/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.bias]    Loading weights:  91%|█████████▏| 96/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.bias]Loading weights:  92%|█████████▏| 97/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.weight]Loading weights:  92%|█████████▏| 97/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.weight]Loading weights:  93%|█████████▎| 98/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.bias]    Loading weights:  93%|█████████▎| 98/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.bias]Loading weights:  94%|█████████▍| 99/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.weight]Loading weights:  94%|█████████▍| 99/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.weight]Loading weights:  95%|█████████▌| 100/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.dense.bias]     Loading weights:  95%|█████████▌| 100/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.dense.bias]Loading weights:  96%|█████████▌| 101/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.dense.weight]Loading weights:  96%|█████████▌| 101/105 [00:00<00:00, 922.78it/s, Materializing param=bert.encoder.layer.5.output.dense.weight]Loading weights:  97%|█████████▋| 102/105 [00:00<00:00, 922.78it/s, Materializing param=bert.pooler.dense.bias]                  Loading weights:  97%|█████████▋| 102/105 [00:00<00:00, 922.78it/s, Materializing param=bert.pooler.dense.bias]Loading weights:  98%|█████████▊| 103/105 [00:00<00:00, 922.78it/s, Materializing param=bert.pooler.dense.weight]Loading weights:  98%|█████████▊| 103/105 [00:00<00:00, 922.78it/s, Materializing param=bert.pooler.dense.weight]Loading weights:  99%|█████████▉| 104/105 [00:00<00:00, 922.78it/s, Materializing param=classifier.bias]         Loading weights:  99%|█████████▉| 104/105 [00:00<00:00, 922.78it/s, Materializing param=classifier.bias]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 922.78it/s, Materializing param=classifier.weight]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 922.78it/s, Materializing param=classifier.weight]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 904.30it/s, Materializing param=classifier.weight]
-BertForSequenceClassification LOAD REPORT from: cross-encoder/ms-marco-MiniLM-L-6-v2
-Key                          | Status     |  | 
------------------------------+------------+--+-
-bert.embeddings.position_ids | UNEXPECTED |  | 
-
-Notes:
-- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights:   1%|          | 1/105 [00:00<00:00, 26051.58it/s, Materializing param=bert.embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/105 [00:00<00:00, 2352.39it/s, Materializing param=bert.embeddings.LayerNorm.bias] Loading weights:   2%|▏         | 2/105 [00:00<00:00, 1965.47it/s, Materializing param=bert.embeddings.LayerNorm.weight]Loading weights:   2%|▏         | 2/105 [00:00<00:00, 1191.06it/s, Materializing param=bert.embeddings.LayerNorm.weight]Loading weights:   3%|▎         | 3/105 [00:00<00:00, 1360.61it/s, Materializing param=bert.embeddings.position_embeddings.weight]Loading weights:   3%|▎         | 3/105 [00:00<00:00, 1060.06it/s, Materializing param=bert.embeddings.position_embeddings.weight]Loading weights:   4%|▍         | 4/105 [00:00<00:00, 1036.40it/s, Materializing param=bert.embeddings.token_type_embeddings.weight]Loading weights:   4%|▍         | 4/105 [00:00<00:00, 938.64it/s, Materializing param=bert.embeddings.token_type_embeddings.weight] Loading weights:   5%|▍         | 5/105 [00:00<00:00, 1018.08it/s, Materializing param=bert.embeddings.word_embeddings.weight]     Loading weights:   5%|▍         | 5/105 [00:00<00:00, 869.65it/s, Materializing param=bert.embeddings.word_embeddings.weight] Loading weights:   6%|▌         | 6/105 [00:00<00:00, 822.36it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|▌         | 6/105 [00:00<00:00, 794.60it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|▋         | 7/105 [00:00<00:00, 867.05it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|▋         | 7/105 [00:00<00:00, 816.24it/s, Materializing param=bert.encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|▊         | 8/105 [00:00<00:00, 815.34it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|▊         | 8/105 [00:00<00:00, 754.12it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|▊         | 9/105 [00:00<00:00, 804.72it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|▊         | 9/105 [00:00<00:00, 772.65it/s, Materializing param=bert.encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|▉         | 10/105 [00:00<00:00, 803.94it/s, Materializing param=bert.encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|▉         | 10/105 [00:00<00:00, 784.04it/s, Materializing param=bert.encoder.layer.0.attention.self.key.bias]Loading weights:  10%|█         | 11/105 [00:00<00:00, 805.12it/s, Materializing param=bert.encoder.layer.0.attention.self.key.weight]Loading weights:  10%|█         | 11/105 [00:00<00:00, 787.92it/s, Materializing param=bert.encoder.layer.0.attention.self.key.weight]Loading weights:  11%|█▏        | 12/105 [00:00<00:00, 803.70it/s, Materializing param=bert.encoder.layer.0.attention.self.query.bias]Loading weights:  11%|█▏        | 12/105 [00:00<00:00, 782.47it/s, Materializing param=bert.encoder.layer.0.attention.self.query.bias]Loading weights:  12%|█▏        | 13/105 [00:00<00:00, 810.61it/s, Materializing param=bert.encoder.layer.0.attention.self.query.weight]Loading weights:  12%|█▏        | 13/105 [00:00<00:00, 785.70it/s, Materializing param=bert.encoder.layer.0.attention.self.query.weight]Loading weights:  13%|█▎        | 14/105 [00:00<00:00, 798.88it/s, Materializing param=bert.encoder.layer.0.attention.self.value.bias]  Loading weights:  13%|█▎        | 14/105 [00:00<00:00, 779.50it/s, Materializing param=bert.encoder.layer.0.attention.self.value.bias]Loading weights:  14%|█▍        | 15/105 [00:00<00:00, 805.67it/s, Materializing param=bert.encoder.layer.0.attention.self.value.weight]Loading weights:  14%|█▍        | 15/105 [00:00<00:00, 779.16it/s, Materializing param=bert.encoder.layer.0.attention.self.value.weight]Loading weights:  15%|█▌        | 16/105 [00:00<00:00, 771.64it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.bias]    Loading weights:  15%|█▌        | 16/105 [00:00<00:00, 757.61it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.bias]Loading weights:  16%|█▌        | 17/105 [00:00<00:00, 785.36it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.weight]Loading weights:  16%|█▌        | 17/105 [00:00<00:00, 774.08it/s, Materializing param=bert.encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|█▋        | 18/105 [00:00<00:00, 796.08it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|█▋        | 18/105 [00:00<00:00, 787.74it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|█▊        | 19/105 [00:00<00:00, 816.61it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|█▊        | 19/105 [00:00<00:00, 807.95it/s, Materializing param=bert.encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|█▉        | 20/105 [00:00<00:00, 831.40it/s, Materializing param=bert.encoder.layer.0.output.dense.bias]      Loading weights:  19%|█▉        | 20/105 [00:00<00:00, 823.41it/s, Materializing param=bert.encoder.layer.0.output.dense.bias]Loading weights:  20%|██        | 21/105 [00:00<00:00, 845.44it/s, Materializing param=bert.encoder.layer.0.output.dense.weight]Loading weights:  20%|██        | 21/105 [00:00<00:00, 836.37it/s, Materializing param=bert.encoder.layer.0.output.dense.weight]Loading weights:  21%|██        | 22/105 [00:00<00:00, 857.63it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|██        | 22/105 [00:00<00:00, 848.20it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|██▏       | 23/105 [00:00<00:00, 870.53it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|██▏       | 23/105 [00:00<00:00, 863.31it/s, Materializing param=bert.encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|██▎       | 24/105 [00:00<00:00, 885.68it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|██▎       | 24/105 [00:00<00:00, 870.97it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|██▍       | 25/105 [00:00<00:00, 895.26it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|██▍       | 25/105 [00:00<00:00, 885.14it/s, Materializing param=bert.encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|██▍       | 26/105 [00:00<00:00, 905.90it/s, Materializing param=bert.encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|██▍       | 26/105 [00:00<00:00, 897.61it/s, Materializing param=bert.encoder.layer.1.attention.self.key.bias]Loading weights:  26%|██▌       | 27/105 [00:00<00:00, 914.88it/s, Materializing param=bert.encoder.layer.1.attention.self.key.weight]Loading weights:  26%|██▌       | 27/105 [00:00<00:00, 907.77it/s, Materializing param=bert.encoder.layer.1.attention.self.key.weight]Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 926.63it/s, Materializing param=bert.encoder.layer.1.attention.self.query.bias]Loading weights:  27%|██▋       | 28/105 [00:00<00:00, 919.81it/s, Materializing param=bert.encoder.layer.1.attention.self.query.bias]Loading weights:  28%|██▊       | 29/105 [00:00<00:00, 942.36it/s, Materializing param=bert.encoder.layer.1.attention.self.query.weight]Loading weights:  28%|██▊       | 29/105 [00:00<00:00, 929.33it/s, Materializing param=bert.encoder.layer.1.attention.self.query.weight]Loading weights:  29%|██▊       | 30/105 [00:00<00:00, 946.57it/s, Materializing param=bert.encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|██▊       | 30/105 [00:00<00:00, 938.39it/s, Materializing param=bert.encoder.layer.1.attention.self.value.bias]Loading weights:  30%|██▉       | 31/105 [00:00<00:00, 959.75it/s, Materializing param=bert.encoder.layer.1.attention.self.value.weight]Loading weights:  30%|██▉       | 31/105 [00:00<00:00, 951.99it/s, Materializing param=bert.encoder.layer.1.attention.self.value.weight]Loading weights:  30%|███       | 32/105 [00:00<00:00, 971.77it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.bias]    Loading weights:  30%|███       | 32/105 [00:00<00:00, 965.21it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.bias]Loading weights:  31%|███▏      | 33/105 [00:00<00:00, 982.18it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.weight]Loading weights:  31%|███▏      | 33/105 [00:00<00:00, 975.32it/s, Materializing param=bert.encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|███▏      | 34/105 [00:00<00:00, 989.33it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.bias]    Loading weights:  32%|███▏      | 34/105 [00:00<00:00, 980.00it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.bias]Loading weights:  33%|███▎      | 35/105 [00:00<00:00, 993.16it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.weight]Loading weights:  33%|███▎      | 35/105 [00:00<00:00, 986.66it/s, Materializing param=bert.encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|███▍      | 36/105 [00:00<00:00, 1002.80it/s, Materializing param=bert.encoder.layer.1.output.dense.bias]     Loading weights:  34%|███▍      | 36/105 [00:00<00:00, 995.14it/s, Materializing param=bert.encoder.layer.1.output.dense.bias] Loading weights:  35%|███▌      | 37/105 [00:00<00:00, 1009.22it/s, Materializing param=bert.encoder.layer.1.output.dense.weight]Loading weights:  35%|███▌      | 37/105 [00:00<00:00, 1002.55it/s, Materializing param=bert.encoder.layer.1.output.dense.weight]Loading weights:  36%|███▌      | 38/105 [00:00<00:00, 1014.05it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  36%|███▌      | 38/105 [00:00<00:00, 1007.99it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|███▋      | 39/105 [00:00<00:00, 1021.73it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  37%|███▋      | 39/105 [00:00<00:00, 1016.19it/s, Materializing param=bert.encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|███▊      | 40/105 [00:00<00:00, 1028.70it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.bias]      Loading weights:  38%|███▊      | 40/105 [00:00<00:00, 1022.64it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.bias]Loading weights:  39%|███▉      | 41/105 [00:00<00:00, 1032.59it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.weight]Loading weights:  39%|███▉      | 41/105 [00:00<00:00, 1021.43it/s, Materializing param=bert.encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|████      | 42/105 [00:00<00:00, 1034.10it/s, Materializing param=bert.encoder.layer.2.attention.self.key.bias]      Loading weights:  40%|████      | 42/105 [00:00<00:00, 1027.90it/s, Materializing param=bert.encoder.layer.2.attention.self.key.bias]Loading weights:  41%|████      | 43/105 [00:00<00:00, 1039.13it/s, Materializing param=bert.encoder.layer.2.attention.self.key.weight]Loading weights:  41%|████      | 43/105 [00:00<00:00, 1030.98it/s, Materializing param=bert.encoder.layer.2.attention.self.key.weight]Loading weights:  42%|████▏     | 44/105 [00:00<00:00, 1040.32it/s, Materializing param=bert.encoder.layer.2.attention.self.query.bias]Loading weights:  42%|████▏     | 44/105 [00:00<00:00, 1034.95it/s, Materializing param=bert.encoder.layer.2.attention.self.query.bias]Loading weights:  43%|████▎     | 45/105 [00:00<00:00, 1047.45it/s, Materializing param=bert.encoder.layer.2.attention.self.query.weight]Loading weights:  43%|████▎     | 45/105 [00:00<00:00, 1041.72it/s, Materializing param=bert.encoder.layer.2.attention.self.query.weight]Loading weights:  44%|████▍     | 46/105 [00:00<00:00, 1055.67it/s, Materializing param=bert.encoder.layer.2.attention.self.value.bias]  Loading weights:  44%|████▍     | 46/105 [00:00<00:00, 1050.02it/s, Materializing param=bert.encoder.layer.2.attention.self.value.bias]Loading weights:  45%|████▍     | 47/105 [00:00<00:00, 1062.91it/s, Materializing param=bert.encoder.layer.2.attention.self.value.weight]Loading weights:  45%|████▍     | 47/105 [00:00<00:00, 1057.79it/s, Materializing param=bert.encoder.layer.2.attention.self.value.weight]Loading weights:  46%|████▌     | 48/105 [00:00<00:00, 1067.46it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.bias]    Loading weights:  46%|████▌     | 48/105 [00:00<00:00, 1061.71it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.bias]Loading weights:  47%|████▋     | 49/105 [00:00<00:00, 1073.05it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.weight]Loading weights:  47%|████▋     | 49/105 [00:00<00:00, 1066.82it/s, Materializing param=bert.encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|████▊     | 50/105 [00:00<00:00, 1076.07it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.bias]    Loading weights:  48%|████▊     | 50/105 [00:00<00:00, 1067.21it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.bias]Loading weights:  49%|████▊     | 51/105 [00:00<00:00, 1077.60it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.weight]Loading weights:  49%|████▊     | 51/105 [00:00<00:00, 1072.32it/s, Materializing param=bert.encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|████▉     | 52/105 [00:00<00:00, 1081.30it/s, Materializing param=bert.encoder.layer.2.output.dense.bias]      Loading weights:  50%|████▉     | 52/105 [00:00<00:00, 1075.89it/s, Materializing param=bert.encoder.layer.2.output.dense.bias]Loading weights:  50%|█████     | 53/105 [00:00<00:00, 1085.68it/s, Materializing param=bert.encoder.layer.2.output.dense.weight]Loading weights:  50%|█████     | 53/105 [00:00<00:00, 1079.45it/s, Materializing param=bert.encoder.layer.2.output.dense.weight]Loading weights:  51%|█████▏    | 54/105 [00:00<00:00, 1083.23it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  51%|█████▏    | 54/105 [00:00<00:00, 1077.62it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|█████▏    | 55/105 [00:00<00:00, 1087.27it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  52%|█████▏    | 55/105 [00:00<00:00, 1081.42it/s, Materializing param=bert.encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|█████▎    | 56/105 [00:00<00:00, 1088.32it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.bias]      Loading weights:  53%|█████▎    | 56/105 [00:00<00:00, 1083.78it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.bias]Loading weights:  54%|█████▍    | 57/105 [00:00<00:00, 1091.44it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.weight]Loading weights:  54%|█████▍    | 57/105 [00:00<00:00, 1086.46it/s, Materializing param=bert.encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|█████▌    | 58/105 [00:00<00:00, 1093.43it/s, Materializing param=bert.encoder.layer.3.attention.self.key.bias]      Loading weights:  55%|█████▌    | 58/105 [00:00<00:00, 1087.16it/s, Materializing param=bert.encoder.layer.3.attention.self.key.bias]Loading weights:  56%|█████▌    | 59/105 [00:00<00:00, 1094.70it/s, Materializing param=bert.encoder.layer.3.attention.self.key.weight]Loading weights:  56%|█████▌    | 59/105 [00:00<00:00, 1090.31it/s, Materializing param=bert.encoder.layer.3.attention.self.key.weight]Loading weights:  57%|█████▋    | 60/105 [00:00<00:00, 1099.81it/s, Materializing param=bert.encoder.layer.3.attention.self.query.bias]Loading weights:  57%|█████▋    | 60/105 [00:00<00:00, 1094.30it/s, Materializing param=bert.encoder.layer.3.attention.self.query.bias]Loading weights:  58%|█████▊    | 61/105 [00:00<00:00, 1101.36it/s, Materializing param=bert.encoder.layer.3.attention.self.query.weight]Loading weights:  58%|█████▊    | 61/105 [00:00<00:00, 1093.63it/s, Materializing param=bert.encoder.layer.3.attention.self.query.weight]Loading weights:  59%|█████▉    | 62/105 [00:00<00:00, 1101.65it/s, Materializing param=bert.encoder.layer.3.attention.self.value.bias]  Loading weights:  59%|█████▉    | 62/105 [00:00<00:00, 1096.91it/s, Materializing param=bert.encoder.layer.3.attention.self.value.bias]Loading weights:  60%|██████    | 63/105 [00:00<00:00, 1106.16it/s, Materializing param=bert.encoder.layer.3.attention.self.value.weight]Loading weights:  60%|██████    | 63/105 [00:00<00:00, 1102.24it/s, Materializing param=bert.encoder.layer.3.attention.self.value.weight]Loading weights:  61%|██████    | 64/105 [00:00<00:00, 1109.88it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.bias]    Loading weights:  61%|██████    | 64/105 [00:00<00:00, 1104.00it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.bias]Loading weights:  62%|██████▏   | 65/105 [00:00<00:00, 1109.60it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.weight]Loading weights:  62%|██████▏   | 65/105 [00:00<00:00, 1104.99it/s, Materializing param=bert.encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|██████▎   | 66/105 [00:00<00:00, 1112.30it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.bias]    Loading weights:  63%|██████▎   | 66/105 [00:00<00:00, 1107.35it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.bias]Loading weights:  64%|██████▍   | 67/105 [00:00<00:00, 1114.73it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.weight]Loading weights:  64%|██████▍   | 67/105 [00:00<00:00, 1108.09it/s, Materializing param=bert.encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|██████▍   | 68/105 [00:00<00:00, 1117.20it/s, Materializing param=bert.encoder.layer.3.output.dense.bias]      Loading weights:  65%|██████▍   | 68/105 [00:00<00:00, 1112.18it/s, Materializing param=bert.encoder.layer.3.output.dense.bias]Loading weights:  66%|██████▌   | 69/105 [00:00<00:00, 1121.30it/s, Materializing param=bert.encoder.layer.3.output.dense.weight]Loading weights:  66%|██████▌   | 69/105 [00:00<00:00, 1115.79it/s, Materializing param=bert.encoder.layer.3.output.dense.weight]Loading weights:  67%|██████▋   | 70/105 [00:00<00:00, 1120.46it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  67%|██████▋   | 70/105 [00:00<00:00, 1116.37it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|██████▊   | 71/105 [00:00<00:00, 1122.44it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  68%|██████▊   | 71/105 [00:00<00:00, 1117.74it/s, Materializing param=bert.encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|██████▊   | 72/105 [00:00<00:00, 1125.00it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.bias]      Loading weights:  69%|██████▊   | 72/105 [00:00<00:00, 1121.02it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.bias]Loading weights:  70%|██████▉   | 73/105 [00:00<00:00, 1128.85it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.weight]Loading weights:  70%|██████▉   | 73/105 [00:00<00:00, 1124.71it/s, Materializing param=bert.encoder.layer.4.attention.output.dense.weight]Loading weights:  70%|███████   | 74/105 [00:00<00:00, 1130.31it/s, Materializing param=bert.encoder.layer.4.attention.self.key.bias]      Loading weights:  70%|███████   | 74/105 [00:00<00:00, 1125.47it/s, Materializing param=bert.encoder.layer.4.attention.self.key.bias]Loading weights:  71%|███████▏  | 75/105 [00:00<00:00, 1131.13it/s, Materializing param=bert.encoder.layer.4.attention.self.key.weight]Loading weights:  71%|███████▏  | 75/105 [00:00<00:00, 1126.75it/s, Materializing param=bert.encoder.layer.4.attention.self.key.weight]Loading weights:  72%|███████▏  | 76/105 [00:00<00:00, 1133.49it/s, Materializing param=bert.encoder.layer.4.attention.self.query.bias]Loading weights:  72%|███████▏  | 76/105 [00:00<00:00, 1129.79it/s, Materializing param=bert.encoder.layer.4.attention.self.query.bias]Loading weights:  73%|███████▎  | 77/105 [00:00<00:00, 1136.93it/s, Materializing param=bert.encoder.layer.4.attention.self.query.weight]Loading weights:  73%|███████▎  | 77/105 [00:00<00:00, 1131.99it/s, Materializing param=bert.encoder.layer.4.attention.self.query.weight]Loading weights:  74%|███████▍  | 78/105 [00:00<00:00, 1137.47it/s, Materializing param=bert.encoder.layer.4.attention.self.value.bias]  Loading weights:  74%|███████▍  | 78/105 [00:00<00:00, 1133.43it/s, Materializing param=bert.encoder.layer.4.attention.self.value.bias]Loading weights:  75%|███████▌  | 79/105 [00:00<00:00, 1140.84it/s, Materializing param=bert.encoder.layer.4.attention.self.value.weight]Loading weights:  75%|███████▌  | 79/105 [00:00<00:00, 1135.08it/s, Materializing param=bert.encoder.layer.4.attention.self.value.weight]Loading weights:  76%|███████▌  | 80/105 [00:00<00:00, 1140.09it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.bias]    Loading weights:  76%|███████▌  | 80/105 [00:00<00:00, 1134.76it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.bias]Loading weights:  77%|███████▋  | 81/105 [00:00<00:00, 1140.66it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.weight]Loading weights:  77%|███████▋  | 81/105 [00:00<00:00, 1136.63it/s, Materializing param=bert.encoder.layer.4.intermediate.dense.weight]Loading weights:  78%|███████▊  | 82/105 [00:00<00:00, 1140.94it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.bias]    Loading weights:  78%|███████▊  | 82/105 [00:00<00:00, 1137.08it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.bias]Loading weights:  79%|███████▉  | 83/105 [00:00<00:00, 1143.80it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.weight]Loading weights:  79%|███████▉  | 83/105 [00:00<00:00, 1140.01it/s, Materializing param=bert.encoder.layer.4.output.LayerNorm.weight]Loading weights:  80%|████████  | 84/105 [00:00<00:00, 1145.81it/s, Materializing param=bert.encoder.layer.4.output.dense.bias]      Loading weights:  80%|████████  | 84/105 [00:00<00:00, 1141.02it/s, Materializing param=bert.encoder.layer.4.output.dense.bias]Loading weights:  81%|████████  | 85/105 [00:00<00:00, 1147.32it/s, Materializing param=bert.encoder.layer.4.output.dense.weight]Loading weights:  81%|████████  | 85/105 [00:00<00:00, 1143.95it/s, Materializing param=bert.encoder.layer.4.output.dense.weight]Loading weights:  82%|████████▏ | 86/105 [00:00<00:00, 1149.51it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  82%|████████▏ | 86/105 [00:00<00:00, 1144.86it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|████████▎ | 87/105 [00:00<00:00, 1150.63it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  83%|████████▎ | 87/105 [00:00<00:00, 1146.15it/s, Materializing param=bert.encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|████████▍ | 88/105 [00:00<00:00, 1152.71it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.bias]      Loading weights:  84%|████████▍ | 88/105 [00:00<00:00, 1148.80it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.bias]Loading weights:  85%|████████▍ | 89/105 [00:00<00:00, 1154.20it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.weight]Loading weights:  85%|████████▍ | 89/105 [00:00<00:00, 1149.67it/s, Materializing param=bert.encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|████████▌ | 90/105 [00:00<00:00, 1155.35it/s, Materializing param=bert.encoder.layer.5.attention.self.key.bias]      Loading weights:  86%|████████▌ | 90/105 [00:00<00:00, 1152.26it/s, Materializing param=bert.encoder.layer.5.attention.self.key.bias]Loading weights:  87%|████████▋ | 91/105 [00:00<00:00, 1156.96it/s, Materializing param=bert.encoder.layer.5.attention.self.key.weight]Loading weights:  87%|████████▋ | 91/105 [00:00<00:00, 1152.83it/s, Materializing param=bert.encoder.layer.5.attention.self.key.weight]Loading weights:  88%|████████▊ | 92/105 [00:00<00:00, 1158.48it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  88%|████████▊ | 92/105 [00:00<00:00, 1154.51it/s, Materializing param=bert.encoder.layer.5.attention.self.query.bias]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 1159.56it/s, Materializing param=bert.encoder.layer.5.attention.self.query.weight]Loading weights:  89%|████████▊ | 93/105 [00:00<00:00, 1154.95it/s, Materializing param=bert.encoder.layer.5.attention.self.query.weight]Loading weights:  90%|████████▉ | 94/105 [00:00<00:00, 1161.70it/s, Materializing param=bert.encoder.layer.5.attention.self.value.bias]  Loading weights:  90%|████████▉ | 94/105 [00:00<00:00, 1157.38it/s, Materializing param=bert.encoder.layer.5.attention.self.value.bias]Loading weights:  90%|█████████ | 95/105 [00:00<00:00, 1162.37it/s, Materializing param=bert.encoder.layer.5.attention.self.value.weight]Loading weights:  90%|█████████ | 95/105 [00:00<00:00, 1159.21it/s, Materializing param=bert.encoder.layer.5.attention.self.value.weight]Loading weights:  91%|█████████▏| 96/105 [00:00<00:00, 1164.10it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.bias]    Loading weights:  91%|█████████▏| 96/105 [00:00<00:00, 1160.40it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.bias]Loading weights:  92%|█████████▏| 97/105 [00:00<00:00, 1163.57it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.weight]Loading weights:  92%|█████████▏| 97/105 [00:00<00:00, 1160.01it/s, Materializing param=bert.encoder.layer.5.intermediate.dense.weight]Loading weights:  93%|█████████▎| 98/105 [00:00<00:00, 1164.87it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.bias]    Loading weights:  93%|█████████▎| 98/105 [00:00<00:00, 1161.14it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.bias]Loading weights:  94%|█████████▍| 99/105 [00:00<00:00, 1167.79it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.weight]Loading weights:  94%|█████████▍| 99/105 [00:00<00:00, 1162.53it/s, Materializing param=bert.encoder.layer.5.output.LayerNorm.weight]Loading weights:  95%|█████████▌| 100/105 [00:00<00:00, 1168.25it/s, Materializing param=bert.encoder.layer.5.output.dense.bias]     Loading weights:  95%|█████████▌| 100/105 [00:00<00:00, 1164.63it/s, Materializing param=bert.encoder.layer.5.output.dense.bias]Loading weights:  96%|█████████▌| 101/105 [00:00<00:00, 1169.51it/s, Materializing param=bert.encoder.layer.5.output.dense.weight]Loading weights:  96%|█████████▌| 101/105 [00:00<00:00, 1165.94it/s, Materializing param=bert.encoder.layer.5.output.dense.weight]Loading weights:  97%|█████████▋| 102/105 [00:00<00:00, 1170.81it/s, Materializing param=bert.pooler.dense.bias]                  Loading weights:  97%|█████████▋| 102/105 [00:00<00:00, 1166.76it/s, Materializing param=bert.pooler.dense.bias]Loading weights:  98%|█████████▊| 103/105 [00:00<00:00, 1173.07it/s, Materializing param=bert.pooler.dense.weight]Loading weights:  98%|█████████▊| 103/105 [00:00<00:00, 1169.23it/s, Materializing param=bert.pooler.dense.weight]Loading weights:  99%|█████████▉| 104/105 [00:00<00:00, 1174.88it/s, Materializing param=classifier.bias]         Loading weights:  99%|█████████▉| 104/105 [00:00<00:00, 1170.56it/s, Materializing param=classifier.bias]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1174.82it/s, Materializing param=classifier.weight]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1171.95it/s, Materializing param=classifier.weight]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1165.26it/s, Materializing param=classifier.weight]
-BertForSequenceClassification LOAD REPORT from: cross-encoder/ms-marco-MiniLM-L-6-v2
-Key                          | Status     |  | 
------------------------------+------------+--+-
-bert.embeddings.position_ids | UNEXPECTED |  | 
-
-Notes:
-- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-2026-03-18 08:48:12.816 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:48:16.934 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:48:17.233 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:48:18,285 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-🧠 Extracted 9 citations
-🔍 Verifying: Categorical Foundation of Quantum Mechanics and String Theory
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Categorical Foundation of Quantum Mechanics and String Theory
-URL: https://arxiv.org/abs/0812.1946
-
---------------------------------
-
-
---- verify_citation started for: Categorical Foundation of Quantum Mechanics and St... ---
-🔍 Verifying: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-URL: https://link.springer.com/article/10.1007/s10942-018-0292-8
-
---------------------------------
-
-
---- verify_citation started for: A Historical and Theoretical Review of Cognitive B... ---
-🔍 Verifying: Psychological Construction as a Theoretical Principle for CBT
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Construction as a Theoretical Principle for CBT
-URL: https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1363819/full
-
---------------------------------
-
-
---- verify_citation started for: Psychological Construction as a Theoretical Princi... ---
-🔍 Verifying: From Theory to Practice: CBT in Psychological Disorders
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: From Theory to Practice: CBT in Psychological Disorders
-URL: https://pubmed.ncbi.nlm.nih.gov/39323855
-
---------------------------------
-
-
---- verify_citation started for: From Theory to Practice: CBT in Psychological Diso... ---
-🔍 Verifying: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-URL: https://arxiv.org/abs/2002.11195
-
---------------------------------
-
-
---- verify_citation started for: Quantum Cognitive Triad: Semantic Geometry of Cont... ---
-  URL check: 0.03s -> valid=True
-  URL check: 0.04s -> valid=True
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  6.53it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  6.60it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  6.41it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  6.44it/s]
-  Content match: 0.27s -> valid=True
-  ✅ REAL_CITATION (URL+content) total: 0.30s
-None
-🔍 Verifying: Bridging the Gap Between Complexity Science and Clinical Practice
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Bridging the Gap Between Complexity Science and Clinical Practice
-URL: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01558-1
-
---------------------------------
-
-
---- verify_citation started for: Bridging the Gap Between Complexity Science and Cl... ---
-  Content match: 0.27s -> valid=True
-  ✅ REAL_CITATION (URL+content) total: 0.31s
-None
-🔍 Verifying: Networks in Cognitive Science
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Networks in Cognitive Science
-URL: https://arxiv.org/abs/1304.6736
-
---------------------------------
-
-
---- verify_citation started for: Networks in Cognitive Science... ---
-  URL check: 0.03s -> valid=True
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 127.37it/s]
-  Content match: 0.09s -> valid=True
-  ✅ REAL_CITATION (URL+content) total: 0.12s
-None
-🔍 Verifying: Integrative Model for OCD (CBT + Neuroscience)
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Integrative Model for OCD (CBT + Neuroscience)
-URL: https://www.mdpi.com/2077-0383/11/24/7379
-
---------------------------------
-
-
---- verify_citation started for: Integrative Model for OCD (CBT + Neuroscience)... ---
-  URL check: 0.50s -> valid=True
-  URL check: 0.09s -> valid=False
-  URL check: 0.62s -> valid=True
-  URL check: 0.92s -> valid=True
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]  URL check: 0.95s -> valid=True
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.50it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.48it/s]
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  6.75it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  6.49it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 12.14it/s]
-  Content match: 1.03s -> valid=False
-  Content match: 0.92s -> valid=False
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:00<00:01,  1.83it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[ABatches:  50%|█████     | 2/4 [00:01<00:01,  1.42it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  9.26it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  9.00it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 21.40it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 13.26it/s]
-  Content match: 2.10s -> valid=True
-  ✅ REAL_CITATION (URL+content) total: 3.02s
-None
-🔍 Verifying: Psychological Theory in an Interdisciplinary Context
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Theory in an Interdisciplinary Context
-URL: https://ijbnpa.biomedcentral.com/articles/10.1186/1479-5868-10-106
-
---------------------------------
-
-
---- verify_citation started for: Psychological Theory in an Interdisciplinary Conte... ---
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 4/4 [00:01<00:00,  3.11it/s]Batches: 100%|██████████| 4/4 [00:01<00:00,  2.58it/s]
-
-Batches:  25%|██▌       | 1/4 [00:00<00:00,  9.41it/s][A
-Batches:  50%|█████     | 2/4 [00:00<00:00,  7.47it/s][A
-
-Batches:  25%|██▌       | 1/4 [00:00<00:00,  4.91it/s][A[ABatches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:  75%|███████▌  | 3/4 [00:00<00:00,  6.07it/s][A
-
-Batches:  50%|█████     | 2/4 [00:00<00:00,  4.90it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  4.79it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.77it/s]
-
-Batches: 100%|██████████| 4/4 [00:00<00:00,  5.07it/s][ABatches: 100%|██████████| 4/4 [00:00<00:00,  5.64it/s]
-
-
-Batches:  75%|███████▌  | 3/4 [00:00<00:00,  4.12it/s][A[ABatches: 100%|██████████| 4/4 [00:00<00:00,  5.60it/s]
-  Content match: 2.52s -> valid=True
-  ✅ REAL_CITATION (URL+content) total: 3.47s
-None
-  URL check: 0.99s -> valid=True
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 93.36it/s]
-  Hybrid verification: 3.31s -> decision=HALLUCINATED
-  ❌ HALLUCINATED_CITATION (not found anywhere) total: 4.83s
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Psychological Construction as a Theoretical Principle for CBT
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A  Hybrid verification: 6.16s -> decision=HALLUCINATED
-  ❌ HALLUCINATED_CITATION (not found anywhere) total: 6.25s
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Integrative Model for OCD (CBT + Neuroscience)
-
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-Batches: 100%|██████████| 1/1 [00:00<00:00,  2.67it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 29.06it/s]
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  2.92it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.87it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 17.34it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 17.46it/s]
-  Hybrid verification: 5.19s -> decision=HALLUCINATED
-  ❌ HALLUCINATED_CITATION (not found anywhere) total: 6.72s
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: From Theory to Practice: CBT in Psychological Disorders
-
-  Content match: 2.88s -> valid=True
-  ✅ REAL_CITATION (URL+content) total: 3.87s
-None
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
-
-Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.89s/it][A[A
-Batches:  33%|███▎      | 1/3 [00:02<00:04,  2.15s/it][ABatches:  25%|██▌       | 1/4 [00:02<00:07,  2.38s/it]
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.22it/s][A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.14it/s][A[A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
-
-
-Batches:  50%|█████     | 2/4 [00:02<00:02,  1.24s/it][A[A
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A
-
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.05s/it][A[A[A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
-
-Batches:  67%|██████▋   | 2/3 [00:02<00:01,  1.35s/it][A
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[ABatches:  50%|█████     | 2/4 [00:03<00:02,  1.40s/it]
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  4.01it/s][A[A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.70it/s]
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:00,  5.31it/s][A[A[A[A
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:00,  3.25it/s][A[A[A[A[A[A
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[A
-
-
-
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.38it/s][A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.37it/s]
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[ABatches:  75%|███████▌  | 3/4 [00:03<00:01,  1.01s/it]
-Batches: 100%|██████████| 3/3 [00:03<00:00,  1.04s/it][ABatches: 100%|██████████| 3/3 [00:03<00:00,  1.21s/it]
-
-
-Batches:  75%|███████▌  | 3/4 [00:03<00:01,  1.03s/it][A[A
-
-
-
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  2.16it/s][A[A[A[A[A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.15it/s]
-
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:02,  1.23it/s][A[A[A[A[A[A[A
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:01,  1.95it/s][A[A[A[A[A
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.74it/s][A[A[A[A[A[A
-
-
-
-Batches:  50%|█████     | 2/4 [00:00<00:01,  1.85it/s][A[A[A[A
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][ABatches: 100%|██████████| 4/4 [00:04<00:00,  1.30it/s]Batches: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.36it/s][A[A[A
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s][A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  2.33it/s][A
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:01<00:00,  1.90it/s][A[A[A[A[A[A
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  2.05it/s][A[A[A[A[A
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.57it/s][A[A[A[A[A[A[A
-
-
-Batches:  50%|█████     | 2/4 [00:00<00:00,  2.19it/s][A[A[ABatches:   0%|          | 0/1 [00:00<?, ?it/s]
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:01<00:00,  1.92it/s][A[A[A[A[ABatches: 100%|██████████| 3/3 [00:01<00:00,  1.93it/s]
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:01<00:00,  1.66it/s][A[A[A[A[A[A[A
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  1.93it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.11it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.07it/s]
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:01<00:00,  1.51it/s][A[A[ABatches:   0%|          | 0/1 [00:00<?, ?it/s]
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:01,  1.04s/it][A[A[A[A
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.27it/s][A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.47it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  8.12it/s]
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.88it/s][A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.86it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  7.16it/s]
-
-Batches: 100%|██████████| 3/3 [00:01<00:00,  1.64it/s][ABatches: 100%|██████████| 3/3 [00:01<00:00,  1.72it/s]
-
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.49it/s][A[A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.50it/s]
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.61it/s]
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.43it/s][A[A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.42it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 73.72it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 51.16it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 82.08it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 51.28it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 59.18it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 68.58it/s]
-2026-03-18 08:50:37.813 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:50:38,680 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-🧠 Extracted 9 citations
-🔍 Verifying: Categorical Foundation of Quantum Mechanics and String Theory
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Categorical Foundation of Quantum Mechanics and String Theory
-URL: https://arxiv.org/abs/0812.1946
-
---------------------------------
-
-None
-🔍 Verifying: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-URL: https://link.springer.com/article/10.1007/s10942-018-0292-8
-
---------------------------------
-
-None
-🔍 Verifying: Psychological Construction as a Theoretical Principle for CBT
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Construction as a Theoretical Principle for CBT
-URL: https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1363819/full
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Psychological Construction as a Theoretical Principle for CBT
-
-🔍 Verifying: From Theory to Practice: CBT in Psychological Disorders
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: From Theory to Practice: CBT in Psychological Disorders
-URL: https://pubmed.ncbi.nlm.nih.gov/39323855
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: From Theory to Practice: CBT in Psychological Disorders
-
-🔍 Verifying: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-URL: https://arxiv.org/abs/2002.11195
-
---------------------------------
-
-None
-🔍 Verifying: Bridging the Gap Between Complexity Science and Clinical Practice
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Bridging the Gap Between Complexity Science and Clinical Practice
-URL: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01558-1
-
---------------------------------
-
-None
-🔍 Verifying: Networks in Cognitive Science
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Networks in Cognitive Science
-URL: https://arxiv.org/abs/1304.6736
-
---------------------------------
-
-None
-🔍 Verifying: Integrative Model for OCD (CBT + Neuroscience)
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Integrative Model for OCD (CBT + Neuroscience)
-URL: https://www.mdpi.com/2077-0383/11/24/7379
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Integrative Model for OCD (CBT + Neuroscience)
-
-🔍 Verifying: Psychological Theory in an Interdisciplinary Context
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Theory in an Interdisciplinary Context
-URL: https://ijbnpa.biomedcentral.com/articles/10.1186/1479-5868-10-106
-
---------------------------------
-
-None
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.14it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s][A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.09s/it][ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.26s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s][A[A[A[A
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.00s/it]
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.11s/it][A[A[A[A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
-
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
-
-
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[A[A[ABatches:  25%|██▌       | 1/4 [00:00<00:01,  2.21it/s]
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.08it/s][A
-
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A[A
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  2.33it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.15it/s]
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  2.11it/s][A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.98it/s]
-
-Batches:  50%|█████     | 2/4 [00:00<00:00,  3.00it/s][A
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.18it/s][A[A[A[A[A[A
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A
-
-
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  3.65it/s][A[A[A[A[A[A[A
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.45it/s][A[A[A[A[A
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:02,  1.04it/s][A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.44it/s]
-
-Batches:  75%|███████▌  | 3/4 [00:01<00:00,  2.35it/s][A
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[ABatches:  50%|█████     | 2/4 [00:01<00:01,  1.49it/s]
-
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:02,  1.25it/s][A[A[A[A[A[A[A[A
-
-
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:00<00:00,  2.23it/s][A[A[A[A[A[A[A
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.78it/s][A[A[A[A[A[A
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:01,  1.55it/s][A[A[A
-
-Batches:  25%|██▌       | 1/4 [00:01<00:03,  1.09s/it][A[A
-Batches: 100%|██████████| 4/4 [00:01<00:00,  1.97it/s][ABatches: 100%|██████████| 4/4 [00:01<00:00,  2.12it/s]
-
-
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.09it/s][A[A[A[A[A[A[A[A
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:01<00:01,  1.01it/s][A[A[A[A[A
-
-
-
-Batches:  50%|█████     | 2/4 [00:02<00:02,  1.07s/it][A[A[A[A
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  1.24it/s][A[A[ABatches:  75%|███████▌  | 3/4 [00:02<00:00,  1.12it/s]
-
-
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:01<00:00,  1.31it/s][A[A[A[A[A[A[ABatches: 100%|██████████| 3/3 [00:01<00:00,  1.51it/s]
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s][A[A[A[A[A[A
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.23it/s][A[A
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.32it/s][A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.33it/s]
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.27it/s][A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.36it/s]
-
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:02<00:01,  1.02s/it][A[A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.11it/s]Batches: 100%|██████████| 4/4 [00:03<00:00,  1.19it/s]
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:03<00:01,  1.07s/it][A[A[A[A
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:01,  1.01s/it][A[A[A[A[A[A[A[A
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.11it/s][A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.34it/s]
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.45it/s][A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]
-
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.53it/s][A[A[A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.33it/s]
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.68it/s][A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.40it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 84.34it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 104.40it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 52.84it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 40.67it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 54.32it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 96.25it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 94.36it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 106.18it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 104.59it/s]
-2026-03-18 08:56:43.449 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:56:44.982 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:56:51.380 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:56:51.626 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title:  From Theory to Practice: CBT in Psychological Disorders
-URL: https://pubmed.ncbi.nlm.nih.gov/39323855
-
---------------------------------
-
-
---- verify_citation started for:  From Theory to Practice: CBT in Psychological Dis... ---
-  URL check: 0.65s -> valid=True
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 137.35it/s]
-  Content match: 0.78s -> valid=False
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 135.02it/s]
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  50%|█████     | 2/4 [00:00<00:00, 10.15it/s]Batches: 100%|██████████| 4/4 [00:00<00:00,  8.28it/s]Batches: 100%|██████████| 4/4 [00:00<00:00,  8.51it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 84.80it/s]
-  Hybrid verification: 3.20s -> decision=HALLUCINATED
-  ❌ HALLUCINATED_CITATION (not found anywhere) total: 4.63s
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for:  From Theory to Practice: CBT in Psychological Disorders
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.19it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.09it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.97it/s]
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A
-Batches:  25%|██▌       | 1/4 [00:00<00:00,  6.26it/s][ABatches:  25%|██▌       | 1/4 [00:00<00:01,  2.53it/s]Batches:  50%|█████     | 2/4 [00:00<00:00,  3.22it/s]
-Batches:  50%|█████     | 2/4 [00:00<00:00,  3.14it/s][A
-Batches:  75%|███████▌  | 3/4 [00:00<00:00,  3.72it/s][ABatches:  75%|███████▌  | 3/4 [00:00<00:00,  3.73it/s]
-Batches: 100%|██████████| 4/4 [00:01<00:00,  3.93it/s][ABatches: 100%|██████████| 4/4 [00:01<00:00,  3.87it/s]
-Batches: 100%|██████████| 4/4 [00:01<00:00,  3.91it/s]Batches: 100%|██████████| 4/4 [00:01<00:00,  3.61it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 111.13it/s]
-Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  67%|██████▋   | 2/3 [00:00<00:00, 11.98it/s]Batches: 100%|██████████| 3/3 [00:00<00:00,  9.48it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 44.68it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 60.06it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 83.13it/s]
-2026-03-18 08:57:59.541 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:58:00.995 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:58:02.562 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:58:02.827 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:58:03,874 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-🧠 Extracted 13 citations
-🔍 Verifying: Categorical Foundation of Quantum Mechanics and String Theory
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Categorical Foundation of Quantum Mechanics and String Theory
-URL: https://arxiv.org/abs/0812.1946
-
---------------------------------
-
-None
-🔍 Verifying: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-URL: https://link.springer.com/article/10.1007/s10942-018-0292-8
-
---------------------------------
-
-None
-🔍 Verifying: Psychological Construction as a Theoretical Principle for CBT
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Construction as a Theoretical Principle for CBT
-URL: https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1363819/full
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Psychological Construction as a Theoretical Principle for CBT
-
-🔍 Verifying: From Theory to Practice: CBT in Psychological Disorders
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: From Theory to Practice: CBT in Psychological Disorders
-URL: https://pubmed.ncbi.nlm.nih.gov/39323855
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: From Theory to Practice: CBT in Psychological Disorders
-
-🔍 Verifying: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-URL: https://arxiv.org/abs/2002.11195
-
---------------------------------
-
-None
-🔍 Verifying: Bridging the Gap Between Complexity Science and Clinical Practice
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Bridging the Gap Between Complexity Science and Clinical Practice
-URL: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01558-1
-
---------------------------------
-
-None
-🔍 Verifying: Networks in Cognitive Science
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Networks in Cognitive Science
-URL: https://arxiv.org/abs/1304.6736
-
---------------------------------
-
-None
-🔍 Verifying: Integrative Model for OCD (CBT + Neuroscience)
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Integrative Model for OCD (CBT + Neuroscience)
-URL: https://www.mdpi.com/2077-0383/11/24/7379
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Integrative Model for OCD (CBT + Neuroscience)
-
-🔍 Verifying: Psychological Theory in an Interdisciplinary Context
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Theory in an Interdisciplinary Context
-URL: https://ijbnpa.biomedcentral.com/articles/10.1186/1479-5868-10-106
-
---------------------------------
-
-None
-🔍 Verifying: Relational Frame Theory
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Relational Frame Theory
-URL: 
-
---------------------------------
-
-
---- verify_citation started for: Relational Frame Theory... ---
-🔍 Verifying: Integrated Information Theory
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Integrated Information Theory
-URL: 
-
---------------------------------
-
-
---- verify_citation started for: Integrated Information Theory... ---
-  URL check: 0.00s -> valid=False
-  URL check: 0.01s -> valid=False
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[ABatches: 100%|██████████| 1/1 [00:03<00:00,  3.55s/it]Batches: 100%|██████████| 1/1 [00:03<00:00,  3.56s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches: 100%|██████████| 1/1 [00:03<00:00,  3.29s/it][ABatches: 100%|██████████| 1/1 [00:03<00:00,  3.34s/it]
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[A
-
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A
-
-
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.32it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.32it/s]
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it][A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.37s/it][A[A[A
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.37it/s][ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.28it/s]
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:01,  1.34it/s][A[A[A[A[A
-
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A[A
-
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.19it/s][A[A[A[A[A[A
-
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.05it/s][A[A[A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.03s/it]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.06it/s]
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[A[A
-
-
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A
-
-
-
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A[A
-
-
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:01,  1.29it/s][A[A[A[A[A[A[A
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  1.77it/s][A[A
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.35it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
-Batches:   0%|          | 0/3 [00:00<?, ?it/s]
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.73it/s][A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
-
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  1.37it/s][A[A[A[A[A
-
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  1.62it/s][A[A[A[A[A[A[A[A
-
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  2.24it/s][A[A[A[A[A[A
-
-
-
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.36it/s][A[A[A[A[A[A[A[A[A[A
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A
-
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it][A[A[A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.18it/s][A
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.09it/s][A[ABatches:  33%|███▎      | 1/3 [00:01<00:02,  1.06s/it]
-
-
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:01<00:03,  1.22s/it][A[A[A[A[A[A[A[A[A
-
-
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:01,  1.03s/it][A[A[A[A[A[A[A
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:02,  1.25it/s][A[A[A
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.26it/s][A[A[A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.27it/s]
-
-
-
-
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.13it/s][A[A[A[A[A[A[A[A[A[A
-
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.01it/s][A[A[A[A[A[A[A[A
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.41it/s][A[A
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s][A
-
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  1.07it/s][A[A[A[A[A[A
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  2.30it/s][A[A[A[A
-
-
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.29it/s][A[A[A[A[A[A[A[A[A
-
-
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.30it/s][A[A[A[A[A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.23it/s]
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.70it/s][A[A[ABatches:  67%|██████▋   | 2/3 [00:01<00:00,  1.38it/s]
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s][ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.09it/s]Batches: 100%|██████████| 3/3 [00:02<00:00,  1.11it/s]
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
-
-
-
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:01,  1.02s/it][A[A[A[A[A[A[A[A[A[ABatches:   0%|          | 0/1 [00:00<?, ?it/s]
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:03<00:01,  1.32s/it][A[A[A[A[A[A[A[A
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.12s/it][A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.02it/s]
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:02<00:01,  1.20s/it][A[A[A[A
-
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:03<00:00,  1.30s/it][A[A[A[A[A[ABatches: 100%|██████████| 3/3 [00:03<00:00,  1.16s/it]
-
-
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:03<00:01,  1.24s/it][A[A[A[A[A[A[A[A[A
-
-
-Batches:  75%|███████▌  | 3/4 [00:03<00:01,  1.14s/it][A[A[A
-
-
-
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.09it/s][A[A[A[A[A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.12it/s]
-
-
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s][A[A[A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.05it/s]
-
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.34it/s][A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.39it/s]
-
-
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.23it/s][A[A[A[A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.37it/s]
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.31it/s][A[A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.23it/s]
-  Hybrid verification: 11.17s -> decision=REAL
-  ⚠ HALLUCINATED_CITATION (hybrid found title) total: 11.18s
-EXTERNAL
-🔍 Verifying: Computational Theory of Mind
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Computational Theory of Mind
-URL: 
-
---------------------------------
-
-
---- verify_citation started for: Computational Theory of Mind... ---
-  URL check: 0.00s -> valid=False
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 121.01it/s]
-Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  67%|██████▋   | 2/3 [00:00<00:00, 12.74it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 3/3 [00:00<00:00, 11.50it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00, 13.14it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 22.35it/s]
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  8.03it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  7.84it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00, 36.35it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 66.91it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 27.71it/s]
-🔍 Verifying: Embodied / Systems cognition
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Embodied / Systems cognition
-URL: 
-
---------------------------------
-
-
---- verify_citation started for: Embodied / Systems cognition... ---
-  URL check: 0.00s -> valid=False
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  5.41it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.36it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 20.94it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 35.39it/s]
-  Hybrid verification: 1.68s -> decision=REAL
-  ⚠ HALLUCINATED_CITATION (hybrid found title) total: 1.68s
-EXTERNAL
-Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  67%|██████▋   | 2/3 [00:00<00:00, 12.10it/s]Batches: 100%|██████████| 3/3 [00:00<00:00,  9.51it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 103.09it/s]
-  Hybrid verification: 13.33s -> decision=REAL
-  ⚠ HALLUCINATED_CITATION (hybrid found title) total: 13.33s
-EXTERNAL
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 58.87it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 56.22it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 73.80it/s]
-2026-03-18 08:59:05.839 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
-Stack (most recent call last):
-  File "/usr/lib/python3.12/threading.py", line 1032, in _bootstrap
-    self._bootstrap_inner()
-  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.12/threading.py", line 1012, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
-    self._run_script(request.rerun_data)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
-    ) = exec_func_with_error_handling(code_to_exec, ctx)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
-    result = func()
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
-    exec(code, module.__dict__)  # noqa: S102
-  File "/content/drive/MyDrive/veritasAI/app.py", line 318, in <module>
-    ai_text = st.text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/runtime/metrics_util.py", line 532, in wrapped_func
-    result = non_optional_func(*args, **kwargs)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 695, in text_area
-    return self._text_area(
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/widgets/text_widgets.py", line 740, in _text_area
-    maybe_raise_label_warnings(label, label_visibility)
-  File "/usr/local/lib/python3.12/dist-packages/streamlit/elements/lib/policies.py", line 187, in maybe_raise_label_warnings
-    _LOGGER.warning(
-2026-03-18 08:59:06,666 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-  Hybrid verification: 3.52s -> decision=REAL
-  ⚠ HALLUCINATED_CITATION (hybrid found title) total: 3.52s
-EXTERNAL
-🧠 Extracted 9 citations
-🔍 Verifying: Categorical Foundation of Quantum Mechanics and String Theory
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Categorical Foundation of Quantum Mechanics and String Theory
-URL: https://arxiv.org/abs/0812.1946
-
---------------------------------
-
-None
-🔍 Verifying: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: A Historical and Theoretical Review of Cognitive Behavioral Therapies
-URL: https://link.springer.com/article/10.1007/s10942-018-0292-8
-
---------------------------------
-
-None
-🔍 Verifying: Psychological Construction as a Theoretical Principle for CBT
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Construction as a Theoretical Principle for CBT
-URL: https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1363819/full
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Psychological Construction as a Theoretical Principle for CBT
-
-🔍 Verifying: From Theory to Practice: CBT in Psychological Disorders
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: From Theory to Practice: CBT in Psychological Disorders
-URL: https://pubmed.ncbi.nlm.nih.gov/39323855
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: From Theory to Practice: CBT in Psychological Disorders
-
-🔍 Verifying: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Quantum Cognitive Triad: Semantic Geometry of Context Representation
-URL: https://arxiv.org/abs/2002.11195
-
---------------------------------
-
-None
-🔍 Verifying: Bridging the Gap Between Complexity Science and Clinical Practice
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Bridging the Gap Between Complexity Science and Clinical Practice
-URL: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01558-1
-
---------------------------------
-
-None
-🔍 Verifying: Networks in Cognitive Science
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Networks in Cognitive Science
-URL: https://arxiv.org/abs/1304.6736
-
---------------------------------
-
-None
-🔍 Verifying: Integrative Model for OCD (CBT + Neuroscience)
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Integrative Model for OCD (CBT + Neuroscience)
-URL: https://www.mdpi.com/2077-0383/11/24/7379
-
---------------------------------
-
-NOT_FOUND_ANYWHERE
-⚠ Title not found anywhere. Activating Reference Recommendation Engine...
-
-
-🔎 Searching related references for: Integrative Model for OCD (CBT + Neuroscience)
-
-🔍 Verifying: Psychological Theory in an Interdisciplinary Context
-
-==============================
-🔎 VeritasAI Citation Analysis
-==============================
-
-Title: Psychological Theory in an Interdisciplinary Context
-URL: https://ijbnpa.biomedcentral.com/articles/10.1186/1479-5868-10-106
-
---------------------------------
-
-None
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.68it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  6.47it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.72it/s]
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  2.12it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
-Batches:   0%|          | 0/4 [00:00<?, ?it/s]
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A
-Batches:  25%|██▌       | 1/4 [00:01<00:03,  1.16s/it][A
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[ABatches:  25%|██▌       | 1/4 [00:01<00:04,  1.62s/it]
-
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A
-
-
-
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.26it/s][A[A[A[A
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.40it/s][A[A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00,  1.34it/s]
-
-
-Batches: 100%|██████████| 1/1 [00:01<00:00,  1.60s/it][A[ABatches: 100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
-
-
-
-Batches:  25%|██▌       | 1/4 [00:01<00:03,  1.10s/it][A[A[A
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A
-Batches:  50%|█████     | 2/4 [00:02<00:02,  1.13s/it][A
-
-
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A
-
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A[A
-
-
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  3.64it/s][A[A[A[A[A[A[ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.58it/s]
-
-
-
-
-
-
-Batches: 100%|██████████| 1/1 [00:00<00:00,  3.29it/s][A[A[A[A[A[ABatches:  50%|█████     | 2/4 [00:01<00:01,  1.17it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.24it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 18.17it/s]
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A
-
-
-
-
-
-Batches:   0%|          | 0/3 [00:00<?, ?it/s][A[A[A[A[A[A
-
-
-
-
-
-
-Batches:   0%|          | 0/4 [00:00<?, ?it/s][A[A[A[A[A[A[A
-
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.58it/s][A[A[A[A[A[A[A[ABatches:  75%|███████▌  | 3/4 [00:02<00:00,  1.58it/s]
-
-
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  3.80it/s][A[A[A[A[A[A
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.36it/s][A[A[A
-
-
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:00,  3.89it/s][A[A[A[A[A[A[A
-
-
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  3.69it/s][A[A[A[A
-
-Batches:  33%|███▎      | 1/3 [00:00<00:00,  2.18it/s][A[A
-
-
-
-
-Batches:  25%|██▌       | 1/4 [00:00<00:01,  2.35it/s][A[A[A[A[A
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.21it/s][A
-
-
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  1.35it/s][A[A[A[A[A[A
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.35it/s][A[A[A[A[A[A[A
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.09it/s][ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.05it/s]
-
-
-
-
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.23it/s][A[A[A[A[A[A[A[A
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.11it/s][A[A[A
-
-
-
-
-Batches:  50%|█████     | 2/4 [00:01<00:01,  1.24it/s][A[A[A[A[A
-
-
-
-Batches:  67%|██████▋   | 2/3 [00:01<00:00,  1.34it/s][A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]Batches: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
-
-
-Batches:  67%|██████▋   | 2/3 [00:02<00:01,  1.39s/it][A[A
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.06it/s][A[A[A
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.11it/s][A[A[A[A[A[A[A[A
-
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.14it/s][A[A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.26it/s]
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
-
-
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.14it/s][A[A[A[A[A[A[A
-
-
-
-
-
-Batches: 100%|██████████| 3/3 [00:02<00:00,  1.14it/s][A[A[A[A[A[ABatches: 100%|██████████| 3/3 [00:02<00:00,  1.26it/s]
-
-
-
-
-
-Batches:  75%|███████▌  | 3/4 [00:02<00:01,  1.08s/it][A[A[A[A[A
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.43it/s][A[A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.42it/s]
-
-
-Batches: 100%|██████████| 3/3 [00:03<00:00,  1.01it/s][A[ABatches: 100%|██████████| 3/3 [00:03<00:00,  1.00s/it]
-
-
-
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:02<00:00,  1.39it/s][A[A[A[A[A[A[A[ABatches: 100%|██████████| 4/4 [00:02<00:00,  1.35it/s]
-
-
-
-
-
-Batches: 100%|██████████| 4/4 [00:03<00:00,  1.41it/s][A[A[A[A[ABatches: 100%|██████████| 4/4 [00:03<00:00,  1.31it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 87.62it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 85.26it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 98.13it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 96.72it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
-
-Batches:   0%|          | 0/1 [00:00<?, ?it/s][A[ABatches: 100%|██████████| 1/1 [00:00<00:00, 35.86it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 57.00it/s]
-Batches: 100%|██████████| 1/1 [00:00<00:00, 56.16it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 105.64it/s]
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 107.64it/s]
